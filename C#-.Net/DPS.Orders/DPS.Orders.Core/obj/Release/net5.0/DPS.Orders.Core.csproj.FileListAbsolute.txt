@@ -1,0 +1,12 @@
+C:\Users\filip\source\repos\DPS.Orders\DPS.Orders.Core\bin\Release\net5.0\DPS.Orders.Core.deps.json
+C:\Users\filip\source\repos\DPS.Orders\DPS.Orders.Core\bin\Release\net5.0\DPS.Orders.Core.dll
+C:\Users\filip\source\repos\DPS.Orders\DPS.Orders.Core\bin\Release\net5.0\ref\DPS.Orders.Core.dll
+C:\Users\filip\source\repos\DPS.Orders\DPS.Orders.Core\bin\Release\net5.0\DPS.Orders.Core.pdb
+C:\Users\filip\source\repos\DPS.Orders\DPS.Orders.Core\obj\Release\net5.0\DPS.Orders.Core.csproj.AssemblyReference.cache
+C:\Users\filip\source\repos\DPS.Orders\DPS.Orders.Core\obj\Release\net5.0\DPS.Orders.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filip\source\repos\DPS.Orders\DPS.Orders.Core\obj\Release\net5.0\DPS.Orders.Core.AssemblyInfoInputs.cache
+C:\Users\filip\source\repos\DPS.Orders\DPS.Orders.Core\obj\Release\net5.0\DPS.Orders.Core.AssemblyInfo.cs
+C:\Users\filip\source\repos\DPS.Orders\DPS.Orders.Core\obj\Release\net5.0\DPS.Orders.Core.csproj.CoreCompileInputs.cache
+C:\Users\filip\source\repos\DPS.Orders\DPS.Orders.Core\obj\Release\net5.0\DPS.Orders.Core.dll
+C:\Users\filip\source\repos\DPS.Orders\DPS.Orders.Core\obj\Release\net5.0\ref\DPS.Orders.Core.dll
+C:\Users\filip\source\repos\DPS.Orders\DPS.Orders.Core\obj\Release\net5.0\DPS.Orders.Core.pdb
