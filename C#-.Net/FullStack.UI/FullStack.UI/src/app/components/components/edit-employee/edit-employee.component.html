@@ -1,0 +1,23 @@
+<div class="container my-5">
+    <h1 class="mb-3">Edit employee</h1>
+
+<div class="row">
+    <div class="col-6">
+        <form #form="ngForm" (ngSubmit)="updateEmployee()">
+
+                <div class="mb-3">
+                  <label for="firstName">firstName</label>
+                  <input type="text" class="form-control" id="firstName" name="firstName" [(ngModel)] = "employeeDetails.firstName">
+                </div>
+                <div class="mb-3">
+                    <label for="lastName">lastName</label>
+                    <input type="text" class="form-control" id="lastName" name="lastName" [(ngModel)] = "employeeDetails.lastName">
+                  </div>
+                
+                <button type="submit" class="btn btn-primary mr-5">Zapisz</button>
+                <button type="button" class="btn btn-danger" (click)="deleteEmployee(employeeDetails.id)">Usuń</button>
+        </form>
+    </div>
+</div>
+    
+</div>
