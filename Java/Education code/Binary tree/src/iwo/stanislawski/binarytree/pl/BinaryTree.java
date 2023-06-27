@@ -1,5 +1,7 @@
 package iwo.stanislawski.binarytree.pl;
 
+import java.util.Objects;
+
 public class BinaryTree {
     private int value;
     private BinaryTree left_child;
@@ -33,6 +35,32 @@ public class BinaryTree {
     public void Delete(int Value){
         Delete(this, Value);
     }
+
+    public BinaryTree min_right(BinaryTree object){
+        if(object.left_child == null && object.right_child == null){
+            return object;
+        }
+        BinaryTree min_right = min_right(object.right_child);
+        return min_right;
+
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof BinaryTree that)) return false;
+        return getValue() == that.getValue() && Objects.equals(getLeft_child(), that.getLeft_child()) && Objects.equals(getRight_child(), that.getRight_child());
+    }
+
+
+    public BinaryTree min_left(BinaryTree object){
+        if(object.left_child == null && object.right_child == null){
+            return object;
+        }
+        BinaryTree min_left = min_left(object.right_child);
+        return min_left;
+
+    }
 // TODO Zrobić resztę przypadków czyli jak są dwie wartości z lewej i prawej strony(mniejsze więszke)
     public void Delete(BinaryTree object, int Value){
         // If Node is before leaf
@@ -44,6 +72,22 @@ public class BinaryTree {
                 } else if (object.right_child.left_child != null && object.right_child.right_child == null) {
                     object.right_child = object.right_child.left_child;
                     return;
+                } else if (object.right_child.left_child != null && object.right_child.right_child != null) {
+                    if(!(min_left(object.right_child).equals(object.right_child.left_child))){
+                        BinaryTree temp_left = object.right_child.left_child;
+                        BinaryTree temp_right = object.right_child.right_child;
+                        object.right_child = min_right(object.right_child);
+                        object.right_child.left_child = temp_left;
+                        temp_right.right_child = null;
+                        object.right_child.right_child = temp_right;
+                        return;
+                    }
+                    else {
+                        BinaryTree temp_left = object.right_child.left_child;
+                        object.right_child = min_left(object.left_child);
+                        object.right_child.left_child = temp_left;
+                        return;
+                    }
                 }
                 object.right_child = null;
                 return;
@@ -60,6 +104,26 @@ public class BinaryTree {
                 } else if (object.left_child.left_child != null && object.left_child.right_child == null) {
                     object.left_child = object.left_child.left_child;
                     return;
+                }
+                else if (object.left_child.left_child != null && object.left_child.right_child != null) {
+
+                    if(!(min_left(object.left_child).equals(object.left_child.right_child))){
+                        BinaryTree temp_left = object.left_child.left_child;
+                        BinaryTree temp_right = object.left_child.right_child;
+                        object.left_child = min_left(object.left_child);
+                        object.left_child.left_child = temp_left;
+                        temp_right.right_child = null;
+                        object.left_child.right_child = temp_right;
+                        return;
+                    }
+                    else {
+                        BinaryTree temp_left = object.left_child.left_child;
+                        object.left_child = min_left(object.left_child);
+                        object.left_child.left_child = temp_left;
+                        return;
+                    }
+
+
                 }
                 object.left_child = null;
                 return;
