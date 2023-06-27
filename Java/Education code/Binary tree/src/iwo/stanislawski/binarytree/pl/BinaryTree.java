@@ -33,7 +33,7 @@ public class BinaryTree {
     public void Delete(int Value){
         Delete(this, Value);
     }
-
+// TODO Zrobić resztę przypadków czyli jak są dwie wartości z lewej i prawej strony(mniejsze więszke)
     public void Delete(BinaryTree object, int Value){
         // If Node is before leaf
         if (Value > object.value) {
@@ -54,7 +54,13 @@ public class BinaryTree {
         }
         else {
             if(object.left_child.value == Value){
-
+                if(object.left_child.left_child == null && object.left_child.right_child != null){
+                    object.left_child = object.left_child.right_child;
+                    return;
+                } else if (object.left_child.left_child != null && object.left_child.right_child == null) {
+                    object.left_child = object.left_child.left_child;
+                    return;
+                }
                 object.left_child = null;
                 return;
             }

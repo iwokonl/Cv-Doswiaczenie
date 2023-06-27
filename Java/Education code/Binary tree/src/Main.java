@@ -4,10 +4,10 @@ public class Main {
         BinaryTree temp = new BinaryTree(1);
         temp.Insert(3);
         temp.Insert(2);
-        temp.Insert(-1);
+        temp.Insert(4);
 
 
-        temp.Delete(3);
+        //temp.Delete(-1);
         System.out.printf(temp.toString());
     }
 }
