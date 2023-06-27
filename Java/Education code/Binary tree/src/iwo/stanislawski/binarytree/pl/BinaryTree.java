@@ -17,9 +17,7 @@ public class BinaryTree {
     public void Insert(int Added_Value) {
         Insert(this, Added_Value);
     }
-    public void Change(int Value, int ChangeValue){
-        Change(this, Value, ChangeValue);
-    }
+
     public void Change(BinaryTree object ,int Value, int ChangeValue){
         if (object.value == Value & object.left_child == null & object.right_child == null) {
             object.value = ChangeValue;
@@ -32,11 +30,10 @@ public class BinaryTree {
         }
 
     }
+
     public void Delete(int Value){
         Delete(this, Value);
     }
-
-
 
     @Override
     public boolean equals(Object o) {
@@ -44,15 +41,15 @@ public class BinaryTree {
         if (!(o instanceof BinaryTree that)) return false;
         return getValue() == that.getValue() && Objects.equals(getLeft_child(), that.getLeft_child()) && Objects.equals(getRight_child(), that.getRight_child());
     }
+
     private BinaryTree min_root(BinaryTree object){
         if(object.right_child.left_child == null && object.right_child.right_child == null){
             return object;
         }
         BinaryTree min_root = min_root(object.right_child);
         return min_root;
-
     }
-    //TODO sprawdzić poprawność
+
     private BinaryTree min_right(BinaryTree object){
         if(object.left_child == null && object.right_child == null){
             return object;
@@ -60,20 +57,17 @@ public class BinaryTree {
         BinaryTree min_right = min_right(object.right_child);
 
         return min_right;
-
     }
-    //TODO sprawdzić poprawność
+
     private BinaryTree min_left(BinaryTree object){
         if(object.left_child == null && object.right_child == null){
             return object;
         }
         BinaryTree min_left = min_left(object.right_child);
         return min_left;
-
     }
-// TODO Zrobić resztę przypadków czyli jak są dwie wartości z lewej i prawej strony(mniejsze więszke)
+
 private void Delete(BinaryTree object, int Value){
-        // If Node is before leaf
         if(object.value == Value){
             int temp = min_root(object.right_child).right_child.value;
             Delete(object, temp);
@@ -142,18 +136,14 @@ private void Delete(BinaryTree object, int Value){
                         object.left_child.left_child = temp_left;
                         return;
                     }
-
-
                 }
+                return;
             }
             else{
                 Delete(object.left_child, Value);
             }
         }
-
-
     }
-
 
     @Override
     public String toString() {
