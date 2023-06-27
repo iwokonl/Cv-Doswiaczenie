@@ -38,7 +38,15 @@ public class BinaryTree {
         // If Node is before leaf
         if (Value > object.value) {
             if(object.right_child.value == Value){
+                if(object.right_child.left_child == null && object.right_child.right_child != null){
+                    object.right_child = object.right_child.right_child;
+                    return;
+                } else if (object.right_child.left_child != null && object.right_child.right_child == null) {
+                    object.right_child = object.right_child.left_child;
+                    return;
+                }
                 object.right_child = null;
+                return;
             }
             else{
                 Delete(object.right_child, Value);
@@ -46,7 +54,9 @@ public class BinaryTree {
         }
         else {
             if(object.left_child.value == Value){
+
                 object.left_child = null;
+                return;
             }
             else{
                 Delete(object.left_child, Value);
