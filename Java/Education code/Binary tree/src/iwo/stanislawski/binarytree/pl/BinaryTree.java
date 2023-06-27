@@ -36,14 +36,7 @@ public class BinaryTree {
         Delete(this, Value);
     }
 
-    public BinaryTree min_right(BinaryTree object){
-        if(object.left_child == null && object.right_child == null){
-            return object;
-        }
-        BinaryTree min_right = min_right(object.right_child);
-        return min_right;
 
-    }
 
     @Override
     public boolean equals(Object o) {
@@ -51,9 +44,26 @@ public class BinaryTree {
         if (!(o instanceof BinaryTree that)) return false;
         return getValue() == that.getValue() && Objects.equals(getLeft_child(), that.getLeft_child()) && Objects.equals(getRight_child(), that.getRight_child());
     }
+    private BinaryTree min_root(BinaryTree object){
+        if(object.right_child.left_child == null && object.right_child.right_child == null){
+            return object;
+        }
+        BinaryTree min_root = min_root(object.right_child);
+        return min_root;
 
+    }
+    //TODO sprawdzić poprawność
+    private BinaryTree min_right(BinaryTree object){
+        if(object.left_child == null && object.right_child == null){
+            return object;
+        }
+        BinaryTree min_right = min_right(object.right_child);
 
-    public BinaryTree min_left(BinaryTree object){
+        return min_right;
+
+    }
+    //TODO sprawdzić poprawność
+    private BinaryTree min_left(BinaryTree object){
         if(object.left_child == null && object.right_child == null){
             return object;
         }
@@ -62,8 +72,14 @@ public class BinaryTree {
 
     }
 // TODO Zrobić resztę przypadków czyli jak są dwie wartości z lewej i prawej strony(mniejsze więszke)
-    public void Delete(BinaryTree object, int Value){
+private void Delete(BinaryTree object, int Value){
         // If Node is before leaf
+        if(object.value == Value){
+            int temp = min_root(object.right_child).right_child.value;
+            Delete(object, temp);
+            object.value = temp;
+            return;
+        }
         if (Value > object.value) {
             if(object.right_child.value == Value){
                 if(object.right_child.left_child == null && object.right_child.right_child != null){
@@ -88,14 +104,18 @@ public class BinaryTree {
                         object.right_child.left_child = temp_left;
                         return;
                     }
+                } else if (object.right_child.left_child == null && object.right_child.right_child == null) {
+                    object.right_child = null;
+                    return;
                 }
-                object.right_child = null;
                 return;
             }
             else{
                 Delete(object.right_child, Value);
+                return;
             }
         }
+
         else {
             if(object.left_child.value == Value){
                 if(object.left_child.left_child == null && object.left_child.right_child != null){
@@ -125,15 +145,16 @@ public class BinaryTree {
 
 
                 }
-                object.left_child = null;
-                return;
             }
             else{
                 Delete(object.left_child, Value);
             }
         }
 
+
     }
+
+
     @Override
     public String toString() {
         String temp = print(this, 0, "");
