@@ -2,6 +2,8 @@ import pl.stanislawski.iwo.BinaryTree;
 import pl.stanislawski.iwo.LinkedList;
 
 public class Main {
+
+
     public static void main(String[] args) {
 //        BinaryTree temp = new BinaryTree(10);
 //        temp.insert(9);

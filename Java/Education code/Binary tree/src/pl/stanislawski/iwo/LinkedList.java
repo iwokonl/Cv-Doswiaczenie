@@ -68,4 +68,3 @@ public class LinkedList {
         this.next = next;
     }
 }
-

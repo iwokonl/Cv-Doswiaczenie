@@ -148,6 +148,8 @@ private void delete(BinaryTree object, int Value){
         return search(this, Value);
     }
 
+
+
     private boolean search(BinaryTree object, int Value){
         if(Value > object.value & object.right_child != null){
             return search(object.right_child,Value);
