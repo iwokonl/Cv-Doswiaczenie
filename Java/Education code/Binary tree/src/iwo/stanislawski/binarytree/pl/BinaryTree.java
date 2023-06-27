@@ -14,8 +14,8 @@ public class BinaryTree {
         this.right_child = null;
     }
 
-    public void Insert(int Added_Value) {
-        Insert(this, Added_Value);
+    public void insert(int Added_Value) {
+        insert(this, Added_Value);
     }
 
     public void Change(BinaryTree object ,int Value, int ChangeValue){
@@ -31,8 +31,8 @@ public class BinaryTree {
 
     }
 
-    public void Delete(int Value){
-        Delete(this, Value);
+    public void delete(int Value){
+        delete(this, Value);
     }
 
     @Override
@@ -67,10 +67,10 @@ public class BinaryTree {
         return min_left;
     }
 
-private void Delete(BinaryTree object, int Value){
+private void delete(BinaryTree object, int Value){
         if(object.value == Value){
             int temp = min_root(object.right_child).right_child.value;
-            Delete(object, temp);
+            delete(object, temp);
             object.value = temp;
             return;
         }
@@ -105,7 +105,7 @@ private void Delete(BinaryTree object, int Value){
                 return;
             }
             else{
-                Delete(object.right_child, Value);
+                delete(object.right_child, Value);
                 return;
             }
         }
@@ -139,7 +139,7 @@ private void Delete(BinaryTree object, int Value){
                 return;
             }
             else{
-                Delete(object.left_child, Value);
+                delete(object.left_child, Value);
             }
         }
     }
@@ -180,20 +180,59 @@ private void Delete(BinaryTree object, int Value){
         return temp;
     }
 
-    private void Insert(BinaryTree object, int Added_Value) {
+    private void insert(BinaryTree object, int Added_Value) {
         if (object.value > Added_Value) {
             if (object.left_child == null) {
                 object.left_child = new BinaryTree(Added_Value);
             } else {
-                this.Insert(object.left_child, Added_Value);
+                this.insert(object.left_child, Added_Value);
             }
         } else {
             if (object.right_child == null) {
                 object.right_child = new BinaryTree(Added_Value);
             } else {
-                this.Insert(object.right_child, Added_Value);
+                this.insert(object.right_child, Added_Value);
             }
         }
+    }
+
+    public void inOrder(){
+        inOrder(this);
+    }
+    private void inOrder(BinaryTree object){
+        if(object.left_child != null){
+            inOrder(object.left_child);
+        }
+        System.out.printf(object.value + " ");
+        if(object.right_child != null){
+            inOrder(object.right_child);
+        }
+    }
+    public void postOrder(){
+        postOrder(this);
+    }
+    private void postOrder(BinaryTree object){
+        if(object.left_child != null){
+            postOrder(object.left_child);
+        }
+        if(object.right_child != null){
+            postOrder(object.right_child);
+        }
+        System.out.printf(object.value + " ");
+    }
+
+    public void preOrder(){
+        preOrder(this);
+    }
+    private void preOrder(BinaryTree object){
+        System.out.printf(object.value + " ");
+        if(object.left_child != null){
+            postOrder(object.left_child);
+        }
+        if(object.right_child != null){
+            postOrder(object.right_child);
+        }
+
     }
 
     public int getValue() {
