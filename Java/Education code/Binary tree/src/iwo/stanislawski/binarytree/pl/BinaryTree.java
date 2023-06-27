@@ -109,7 +109,6 @@ private void Delete(BinaryTree object, int Value){
                 return;
             }
         }
-
         else {
             if(object.left_child.value == Value){
                 if(object.left_child.left_child == null && object.left_child.right_child != null){
@@ -143,6 +142,21 @@ private void Delete(BinaryTree object, int Value){
                 Delete(object.left_child, Value);
             }
         }
+    }
+
+    public boolean search(int Value){
+        return search(this, Value);
+    }
+
+    private boolean search(BinaryTree object, int Value){
+        if(Value > object.value & object.right_child != null){
+            return search(object.right_child,Value);
+        } else if (Value < object.value & object.left_child != null) {
+            return search(object.left_child, Value);
+        } else if (Value == object.value) {
+            return true;
+        }
+        return false;
     }
 
     @Override

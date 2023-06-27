@@ -8,7 +8,7 @@ public class Main {
         temp.Insert(-4);
         temp.Insert(-3);
         temp.Insert(-5);
-
+        System.out.println(String.valueOf(temp.search(1)));
 
 
         temp.Delete(-4);
