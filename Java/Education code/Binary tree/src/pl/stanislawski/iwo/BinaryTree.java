@@ -1,4 +1,4 @@
-package iwo.stanislawski.binarytree.pl;
+package pl.stanislawski.iwo;
 
 import java.util.Objects;
 
