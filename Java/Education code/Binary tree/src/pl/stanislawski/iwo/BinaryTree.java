@@ -68,6 +68,9 @@ public class BinaryTree {
     }
 
 private void delete(BinaryTree object, int Value){
+        if(!search(Value)){
+            return;
+        }
         if(object.value == Value){
             int temp = min_root(object.right_child).right_child.value;
             delete(object, temp);
@@ -143,6 +146,7 @@ private void delete(BinaryTree object, int Value){
             }
         }
     }
+
 
     public boolean search(int Value){
         return search(this, Value);
