@@ -2,13 +2,13 @@ package pl.stanislawski.iwo;
 
 import java.util.Objects;
 
-public class BinaryTree {
+public class BST {
     private int value;
-    private BinaryTree left_child;
-    private BinaryTree right_child;
+    private BST left_child;
+    private BST right_child;
 
 
-    public BinaryTree(int value) {
+    public BST(int value) {
         this.value = value;
         this.left_child = null;
         this.right_child = null;
@@ -18,7 +18,7 @@ public class BinaryTree {
         insert(this, Added_Value);
     }
 
-    public void Change(BinaryTree object ,int Value, int ChangeValue){
+    public void Change(BST object , int Value, int ChangeValue){
         if (object.value == Value & object.left_child == null & object.right_child == null) {
             object.value = ChangeValue;
         }
@@ -38,36 +38,36 @@ public class BinaryTree {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof BinaryTree that)) return false;
+        if (!(o instanceof BST that)) return false;
         return getValue() == that.getValue() && Objects.equals(getLeft_child(), that.getLeft_child()) && Objects.equals(getRight_child(), that.getRight_child());
     }
 
-    private BinaryTree min_root(BinaryTree object){
+    private BST min_root(BST object){
         if(object.right_child.left_child == null && object.right_child.right_child == null){
             return object;
         }
-        BinaryTree min_root = min_root(object.right_child);
+        BST min_root = min_root(object.right_child);
         return min_root;
     }
 
-    private BinaryTree min_right(BinaryTree object){
+    private BST min_right(BST object){
         if(object.left_child == null && object.right_child == null){
             return object;
         }
-        BinaryTree min_right = min_right(object.right_child);
+        BST min_right = min_right(object.right_child);
 
         return min_right;
     }
 
-    private BinaryTree min_left(BinaryTree object){
+    private BST min_left(BST object){
         if(object.left_child == null && object.right_child == null){
             return object;
         }
-        BinaryTree min_left = min_left(object.right_child);
+        BST min_left = min_left(object.right_child);
         return min_left;
     }
 
-private void delete(BinaryTree object, int Value){
+private void delete(BST object, int Value){
         if(!search(Value)){
             return;
         }
@@ -87,8 +87,8 @@ private void delete(BinaryTree object, int Value){
                     return;
                 } else if (object.right_child.left_child != null && object.right_child.right_child != null) {
                     if(!(min_left(object.right_child).equals(object.right_child.left_child))){
-                        BinaryTree temp_left = object.right_child.left_child;
-                        BinaryTree temp_right = object.right_child.right_child;
+                        BST temp_left = object.right_child.left_child;
+                        BST temp_right = object.right_child.right_child;
                         object.right_child = min_right(object.right_child);
                         object.right_child.left_child = temp_left;
                         temp_right.right_child = null;
@@ -96,7 +96,7 @@ private void delete(BinaryTree object, int Value){
                         return;
                     }
                     else {
-                        BinaryTree temp_left = object.right_child.left_child;
+                        BST temp_left = object.right_child.left_child;
                         object.right_child = min_left(object.left_child);
                         object.right_child.left_child = temp_left;
                         return;
@@ -124,8 +124,8 @@ private void delete(BinaryTree object, int Value){
                 else if (object.left_child.left_child != null && object.left_child.right_child != null) {
 
                     if(!(min_left(object.left_child).equals(object.left_child.right_child))){
-                        BinaryTree temp_left = object.left_child.left_child;
-                        BinaryTree temp_right = object.left_child.right_child;
+                        BST temp_left = object.left_child.left_child;
+                        BST temp_right = object.left_child.right_child;
                         object.left_child = min_left(object.left_child);
                         object.left_child.left_child = temp_left;
                         temp_right.right_child = null;
@@ -133,7 +133,7 @@ private void delete(BinaryTree object, int Value){
                         return;
                     }
                     else {
-                        BinaryTree temp_left = object.left_child.left_child;
+                        BST temp_left = object.left_child.left_child;
                         object.left_child = min_left(object.left_child);
                         object.left_child.left_child = temp_left;
                         return;
@@ -154,7 +154,7 @@ private void delete(BinaryTree object, int Value){
 
 
 
-    private boolean search(BinaryTree object, int Value){
+    private boolean search(BST object, int Value){
         if(Value > object.value & object.right_child != null){
             return search(object.right_child,Value);
         } else if (Value < object.value & object.left_child != null) {
@@ -171,7 +171,7 @@ private void delete(BinaryTree object, int Value){
         return temp;
     }
 
-    public String print(BinaryTree object, int level, String temp) {
+    public String print(BST object, int level, String temp) {
         StringBuilder space = new StringBuilder();
         if (object.right_child != null) {
             temp = print(object.right_child, level + 1, temp);
@@ -186,16 +186,16 @@ private void delete(BinaryTree object, int Value){
         return temp;
     }
 
-    private void insert(BinaryTree object, int Added_Value) {
+    private void insert(BST object, int Added_Value) {
         if (object.value > Added_Value) {
             if (object.left_child == null) {
-                object.left_child = new BinaryTree(Added_Value);
+                object.left_child = new BST(Added_Value);
             } else {
                 this.insert(object.left_child, Added_Value);
             }
         } else {
             if (object.right_child == null) {
-                object.right_child = new BinaryTree(Added_Value);
+                object.right_child = new BST(Added_Value);
             } else {
                 this.insert(object.right_child, Added_Value);
             }
@@ -205,7 +205,7 @@ private void delete(BinaryTree object, int Value){
     public void inOrder(){
         inOrder(this);
     }
-    private void inOrder(BinaryTree object){
+    private void inOrder(BST object){
         if(object.left_child != null){
             inOrder(object.left_child);
         }
@@ -217,7 +217,7 @@ private void delete(BinaryTree object, int Value){
     public void postOrder(){
         postOrder(this);
     }
-    private void postOrder(BinaryTree object){
+    private void postOrder(BST object){
         if(object.left_child != null){
             postOrder(object.left_child);
         }
@@ -230,7 +230,7 @@ private void delete(BinaryTree object, int Value){
     public void preOrder(){
         preOrder(this);
     }
-    private void preOrder(BinaryTree object){
+    private void preOrder(BST object){
         System.out.printf(object.value + " ");
         if(object.left_child != null){
             postOrder(object.left_child);
@@ -249,19 +249,19 @@ private void delete(BinaryTree object, int Value){
         this.value = value;
     }
 
-    public BinaryTree getLeft_child() {
+    public BST getLeft_child() {
         return left_child;
     }
 
-    public void setLeft_child(BinaryTree left_child) {
+    public void setLeft_child(BST left_child) {
         this.left_child = left_child;
     }
 
-    public BinaryTree getRight_child() {
+    public BST getRight_child() {
         return right_child;
     }
 
-    public void setRight_child(BinaryTree right_child) {
+    public void setRight_child(BST right_child) {
         this.right_child = right_child;
     }
 

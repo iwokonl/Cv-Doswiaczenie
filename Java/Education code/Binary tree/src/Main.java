@@ -1,11 +1,10 @@
-import pl.stanislawski.iwo.BinaryTree;
-import pl.stanislawski.iwo.LinkedList;
+import pl.stanislawski.iwo.BST;
 
 public class Main {
 
 
     public static void main(String[] args) {
-        BinaryTree temp = new BinaryTree(10);
+        BST temp = new BST(10);
         temp.insert(9);
         temp.insert(1);
         temp.insert(3);
