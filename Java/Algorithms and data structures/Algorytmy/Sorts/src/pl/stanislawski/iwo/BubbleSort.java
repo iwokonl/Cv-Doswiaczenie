@@ -9,10 +9,8 @@ aktualny(current) z elementem następnym.
 Złożoność obliczeniowa O(n^2).
 
 1. Weź pierwszy element z listy.
-2. Porównaj go z każdym następnym elementem.
+2. Porównaj go z następnym elementem.
 3. Jeżeli element następny jest większy zamień go.
-
-
 
  */
 public class BubbleSort {

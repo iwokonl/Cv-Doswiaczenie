@@ -19,13 +19,17 @@ public class InsertionSort{
         int key = 0;
         int index;
         for (int i = 0; i < array.length-i; i++) {
-            index= i;
+            // Weź pierwszy index lub wyzeruj index
+            index= 0;
             for (int k = 0; k < array.length-i; k++) {
+                // Sprawdź czy wartość jest większa. Jeśli jest zamień index
                 if(array[index] < array[k]){
                     index = k;
                 }
+                //Przechowuje index na którym stała ostatnia nie posortowana wartość
                 key = k;
             }
+            // Zamianka
             swap(array, index,key);
         }
     }
