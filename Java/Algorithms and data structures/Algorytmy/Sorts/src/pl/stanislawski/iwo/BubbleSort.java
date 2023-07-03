@@ -2,10 +2,12 @@ package pl.stanislawski.iwo;
 /*
 Algorytm przechodzi po każdym elemencie i porównuje go z następnym jeżeli następny jest większy to zamienia element
 aktualny(current) z elementem następnym.
+
 Złożoność obliczeniowa O(n^2).
-1. Weź pierwszy element z listy
-2. Porównaj go z każdym następnym elementem
-3. Jeżeli element następny jest większy zamień go
+
+1. Weź pierwszy element z listy.
+2. Porównaj go z każdym następnym elementem.
+3. Jeżeli element następny jest większy zamień go.
 
 
 
