@@ -9,9 +9,10 @@ public class Main {
         temp.add(2);
         temp.add(3);
         temp.add(4);
-        temp.print();
+        temp = temp.reverse();
 
-        temp = temp.delete(4);
+        //temp = temp.delete(4);
+        System.out.println(String.valueOf(temp.conteinValue(999)));
         temp.print();
     }
 }

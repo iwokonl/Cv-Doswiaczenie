@@ -51,4 +51,29 @@ public class LinkedList {
         }
         return head;
     }
+
+    public LinkedList reverse(){
+        LinkedList next = null;
+        LinkedList prev = null;
+
+        LinkedList current = this;
+        while (current != null){
+            next = current.next;
+            current.next = prev;
+            prev =current;
+            current = next;
+        }
+        return prev;
+    }
+
+    public boolean conteinValue(int value){
+        LinkedList linkedList = this;
+        while(linkedList != null){
+            if(linkedList.value == value){
+                return true;
+            }
+            linkedList = linkedList.next;
+        }
+        return false;
+    }
 }
