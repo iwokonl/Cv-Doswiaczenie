@@ -8,14 +8,18 @@ public class LinkedList {
         this.next = null;
     }
 
+    public LinkedList(LinkedList o1){
+        this.next = o1;
+    }
     public void add(int value){
         LinkedList temp = this;
-
         while(temp.next != null){
             temp = temp.next;
         }
         temp.next = new LinkedList(value);
     }
+
+
 
     public void print(){
         if(this == null){
@@ -75,5 +79,15 @@ public class LinkedList {
             linkedList = linkedList.next;
         }
         return false;
+    }
+
+    public static LinkedList merge(LinkedList o1, LinkedList o2){
+        LinkedList head = o1;
+        LinkedList temp = o1;
+        while (temp.next != null){
+            temp = temp.next;
+        }
+        temp.next = new LinkedList(o2);
+        return head;
     }
 }

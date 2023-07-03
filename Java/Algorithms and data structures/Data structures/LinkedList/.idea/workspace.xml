@@ -84,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688410784756</updated>
       <workItem from="1688410786167" duration="1000" />
-      <workItem from="1688410838908" duration="1975000" />
+      <workItem from="1688410838908" duration="3040000" />
     </task>
     <servers />
   </component>
@@ -96,10 +96,15 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="3" />
+          <line>17</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="temp" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
