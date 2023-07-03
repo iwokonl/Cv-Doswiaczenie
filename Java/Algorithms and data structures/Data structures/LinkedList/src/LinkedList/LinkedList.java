@@ -16,7 +16,7 @@ public class LinkedList {
     public LinkedList(LinkedList o1){
         this.next = o1;
     }
-    public void add(int value){
+    public void addLast(int value){
         LinkedList temp = this;
         while(temp.next != null){
             temp = temp.next;
@@ -24,6 +24,11 @@ public class LinkedList {
         temp.next = new LinkedList(value);
     }
 
+    public LinkedList addFirst(int value){
+        LinkedList head = new LinkedList(value);
+        head.next = this;
+        return head;
+    }
 
 
     public void print(){
@@ -91,7 +96,7 @@ public class LinkedList {
             return null;
         } else if (o1 == null && o2 != null) {
             return o2;
-        } else if ((o1 != null && o2 == null) {
+        } else if (o1 != null && o2 == null) {
             return o1;
         }
         LinkedList head = o1;
