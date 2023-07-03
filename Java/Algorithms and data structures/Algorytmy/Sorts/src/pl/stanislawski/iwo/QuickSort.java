@@ -1,6 +1,9 @@
 package pl.stanislawski.iwo;
 
-public class QuickSort {
+import static pl.stanislawski.iwo.Swap.swap;
+
+public class QuickSort{
+
     public static void quickSort(int[] arr, int low, int high) {
         if (low < high) {
             int pivotIndex = partition(arr, low, high);
@@ -26,11 +29,6 @@ public class QuickSort {
         return i + 1;
     }
 
-    public static void swap(int[] arr, int i, int j) {
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
-    }
 
     public static void printArray(int[] arr) {
         for (int num : arr) {

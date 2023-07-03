@@ -1,4 +1,5 @@
 package pl.stanislawski.iwo;
 
-public class HeapSort {
+public class HeapSort{
+
 }

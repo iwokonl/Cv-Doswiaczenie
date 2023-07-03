@@ -1,4 +1,7 @@
 package pl.stanislawski.iwo;
+
+import static pl.stanislawski.iwo.Swap.swap;
+
 /*
 Algorytm przechodzi po każdym elemencie i porównuje go z następnym jeżeli następny jest większy to zamienia element
 aktualny(current) z elementem następnym.
@@ -31,9 +34,5 @@ public class BubbleSort {
             }
         }
     }
-    private static void swap(int arr[], int index1, int index2){
-        int temp = arr[index1];
-        arr[index1] = arr[index2];
-        arr[index2] = temp;
-    }
+
 }

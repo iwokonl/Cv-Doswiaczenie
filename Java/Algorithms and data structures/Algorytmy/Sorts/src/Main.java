@@ -1,4 +1,5 @@
-import pl.stanislawski.iwo.BubbleSort;
+import pl.stanislawski.iwo.InsertionSort;
+import pl.stanislawski.iwo.SelectionSort;
 
 public class Main {
     public Main() {
@@ -6,9 +7,8 @@ public class Main {
 
     public static void main(String[] args) {
         int[] array = new int[]{4, 3, 2, 1};
-        BubbleSort bubbleSort = new BubbleSort();
-        bubbleSort.bubbleSort(array);
-
+        InsertionSort insertionSort = new InsertionSort();
+        InsertionSort.insertionSort(array);
         for(int i = 0; i < array.length; ++i) {
             System.out.println(array[i]);
         }
