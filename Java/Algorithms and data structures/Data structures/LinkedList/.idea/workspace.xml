@@ -84,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688410784756</updated>
       <workItem from="1688410786167" duration="1000" />
-      <workItem from="1688410838908" duration="5114000" />
+      <workItem from="1688410838908" duration="5498000" />
     </task>
     <servers />
   </component>
@@ -92,15 +92,6 @@
     <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="temp" />

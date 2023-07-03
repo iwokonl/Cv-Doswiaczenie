@@ -11,7 +11,6 @@ public class Main {
         temp.addLast(4);
         temp = temp.addFirst(-1);
         //temp = temp.reverse();
-
         temp.print();
     }
 }
