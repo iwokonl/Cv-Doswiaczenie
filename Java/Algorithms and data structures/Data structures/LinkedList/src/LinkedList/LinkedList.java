@@ -12,6 +12,7 @@ public class LinkedList {
         this.next = null;
     }
 
+    public LinkedList() {}
     public LinkedList(LinkedList o1){
         this.next = o1;
     }
@@ -86,6 +87,13 @@ public class LinkedList {
     }
 
     public static LinkedList merge(LinkedList o1, LinkedList o2){
+        if(o1 == null && o2 == null){
+            return null;
+        } else if (o1 == null && o2 != null) {
+            return o2;
+        } else if ((o1 != null && o2 == null) {
+            return o1;
+        }
         LinkedList head = o1;
         LinkedList temp = o1;
         while (temp.next != null){
