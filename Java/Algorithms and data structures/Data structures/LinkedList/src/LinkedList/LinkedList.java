@@ -1,4 +1,7 @@
 package LinkedList;
+
+import java.util.Objects;
+
 /*
 Dostęp do pamięci: O(1).
 Dostęp do Odczyt: O(n).
@@ -106,5 +109,24 @@ public class LinkedList {
         }
         temp.next = new LinkedList(o2);
         return head;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof LinkedList that)) return false;
+        LinkedList o2 = (LinkedList) this;
+        LinkedList o1 = (LinkedList) o;
+        while (o != null && o2 != null){
+            if (o1.value != o2.value) return false;
+            o1 = o1.next;
+            o2 = o2.next;
+        }
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(value, next);
     }
 }

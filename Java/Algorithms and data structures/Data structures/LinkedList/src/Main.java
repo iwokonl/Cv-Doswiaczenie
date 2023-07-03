@@ -9,8 +9,14 @@ public class Main {
         temp.addLast(2);
         temp.addLast(3);
         temp.addLast(4);
-        temp = temp.addFirst(-1);
+        LinkedList temp2 = new LinkedList(0);
+        temp2.addLast(1);
+        temp2.addLast(2);
+        temp2.addLast(3);
+        temp2.addLast(2);
+
         //temp = temp.reverse();
         temp.print();
+        System.out.println(temp.equals(temp2));
     }
 }
