@@ -18,6 +18,10 @@ public class LinkedList {
     }
 
     public void print(){
+        if(this == null){
+            System.out.println("Pusta lista");
+            return;
+        }
         LinkedList temp = this;
         while (temp != null){
             if(temp.next != null)
@@ -26,5 +30,25 @@ public class LinkedList {
                 System.out.print(temp.value);
             temp = temp.next;
         }
+        System.out.println();
+    }
+
+    public LinkedList delete(int value){
+        LinkedList head = this;
+        LinkedList temp = this;
+        LinkedList prev = this;
+        if(temp.value == value){
+            return temp.next;
+        }
+        while(temp != null){
+            if(value == temp.value){
+                prev.next = temp.next;
+                temp.next = null;
+                return head;
+            }
+            prev = temp;
+            temp = temp.next;
+        }
+        return head;
     }
 }
