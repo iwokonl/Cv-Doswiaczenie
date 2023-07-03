@@ -1,36 +1,28 @@
 package pl.stanislawski.iwo;
 import static pl.stanislawski.iwo.Swap.swap;
 /*
-Wizualizacja: https://www.hackerearth.com/practice/algorithms/sorting/selection-sort/visualize/
+Algorytm polega na tym że zaczynamy od drugiego elementu. Porównujemy go z elementem poprzednim,
+jeśli jest większy to zamieniamy(przepychamy ten element do tyłu) i tak do momentu aż nie skończy nam się tablica bądź element będzie mniejszy.
+Potem idziemy do następnego
 
-Algorytm polega na tym, że bierzesz index pierwszej wartości porównujesz aż nie znajdziesz więszkej. Jak znajdziesz zamieniasz index na więszką.
-Potem zamieniasz tą z najwięszką wartością z ostatnim elementem nie posortowanym(czyli odejmujesz jeden z długości tablicy).
-
-Złożoność obliczeniowa: O(n^2).
-
-1. Weź index pierwszej wartości.
-2. Sprawdź czy jest jakaś więsza wartość
-3. Zamień wartość jeśli jest jest większa
-4. Zamień wartość z ostatnią wartością nie posortowaną.
-
+1. Weź element tablicy(przchowaj go bo zniknie i pętla musi zaczynać się od pierwszego elementu)
+2. Weź index o jeden mniejszy niż w poprzednim kroku element na którym on stał
+3. Sprawdź czy nie wyszedłeś poza tablice oraz czy element "na indeksie -1" jest większy(while).
+Jeżeli jest większy przepchnij go do przodu o 1 i odejmij od indexu "-1".
+4. Zapisz na indexie +1 element z pierwszego kroku
  */
 public class InsertionSort{
     public static void insertionSort(int[] array){
-        int key = 0;
-        int index;
-        for (int i = 0; i < array.length-i; i++) {
-            // Weź pierwszy index lub wyzeruj index
-            index= 0;
-            for (int k = 0; k < array.length-i; k++) {
-                // Sprawdź czy wartość jest większa. Jeśli jest zamień index
-                if(array[index] < array[k]){
-                    index = k;
-                }
-                //Przechowuje index na którym stała ostatnia nie posortowana wartość
-                key = k;
+        for (int i = 1; i < array.length; i++) {
+            int element = array[i];
+            int index = i - 1;
+            while(index >= 0 && array[index] > element){
+                array[index + 1] = array[index];
+                index--;
             }
-            // Zamianka
-            swap(array, index,key);
+            array[index + 1] = element;
+
         }
+
     }
 }
