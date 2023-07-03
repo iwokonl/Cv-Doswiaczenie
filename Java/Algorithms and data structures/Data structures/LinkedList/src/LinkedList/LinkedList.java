@@ -74,7 +74,7 @@ public class LinkedList {
         return prev;
     }
 
-    public boolean conteinValue(int value){
+    public boolean containValue(int value){
         LinkedList linkedList = this;
         while(linkedList != null){
             if(linkedList.value == value){
