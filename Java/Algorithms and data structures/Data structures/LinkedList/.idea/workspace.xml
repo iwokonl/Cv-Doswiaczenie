@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a80dbad-837e-475b-be01-2e154ba3838a" name="Changes" comment="" />
+    <list default="true" id="4a80dbad-837e-475b-be01-2e154ba3838a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +27,10 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/iwoko/Documents/GitHub/Cv-Doswiaczenie/Java/Algorithms and data structures/Data structures/LinkedList1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "C:/Users/iwoko/Documents/GitHub/Cv-Doswiaczenie/Java/Algorithms and data structures/Data structures/LinkedList1/src/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
@@ -30,6 +39,21 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\iwoko\Documents\GitHub\Cv-Doswiaczenie\Java\Algorithms and data structures\Data structures\LinkedList1" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="LinkedLis" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="LinkedLis" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -41,6 +65,7 @@
       <updated>1688437547283</updated>
       <workItem from="1688437548578" duration="21000" />
       <workItem from="1688437604936" duration="47000" />
+      <workItem from="1688437868832" duration="1824000" />
     </task>
     <servers />
   </component>

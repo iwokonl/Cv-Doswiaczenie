@@ -5,8 +5,8 @@ import java.util.Objects;
 /*
 Dostęp do pamięci: O(1).
 Dostęp do Odczyt: O(n).
-
  */
+
 public class LinkedList {
     int value;
     LinkedList next;
