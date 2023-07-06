@@ -35,7 +35,7 @@ public class LinkedList {
         return head;
     }
 
-
+    //TODO add at index method
     public void print(){
         if(this == null){
             System.out.println("Pusta lista");
