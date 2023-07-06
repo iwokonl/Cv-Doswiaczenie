@@ -5,6 +5,8 @@ import java.util.Objects;
 /*
 Dostęp do pamięci: O(1).
 Dostęp do Odczyt: O(n).
+Iteracja O(n).
+Usuwanie O(1).
  */
 
 public class LinkedList {
