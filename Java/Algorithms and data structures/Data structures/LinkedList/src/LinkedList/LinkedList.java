@@ -62,17 +62,22 @@ public class LinkedList {
     }
     public void deleteLast(){
         int size = this.size();
-        LinkedList temp = this;
         if(size == 0){
             System.out.println("Pusta lista");
             return;
         }
+        LinkedList temp = this;
+
         while (temp.next.next != null){
             temp = temp.next;
         }
         temp.next = null;
     }
     public LinkedList delete(int value){
+        if (this == null){
+            System.out.println("Pusta lista");
+            return null;
+        }
         LinkedList head = this;
         LinkedList temp = this;
         LinkedList prev = this;
@@ -92,6 +97,10 @@ public class LinkedList {
     }
 
     public LinkedList reverse(){
+        if (this == null){
+            System.out.println("Pusta lista");
+            return null;
+        }
         LinkedList next = null;
         LinkedList prev = null;
 
@@ -106,6 +115,10 @@ public class LinkedList {
     }
 
     public boolean containValue(int value){
+        if (this == null){
+            System.out.println("Pusta lista");
+            return false;
+        }
         LinkedList linkedList = this;
         while(linkedList != null){
             if(linkedList.value == value){
