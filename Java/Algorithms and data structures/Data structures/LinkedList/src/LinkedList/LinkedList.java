@@ -51,7 +51,27 @@ public class LinkedList {
         }
         System.out.println();
     }
-
+    private int size(){
+        LinkedList temp = this;
+        int size = 0;
+        while(temp != null){
+            size++;
+            temp = temp.next;
+        }
+        return size;
+    }
+    public void deleteLast(){
+        int size = this.size();
+        LinkedList temp = this;
+        if(size == 0){
+            System.out.println("Pusta lista");
+            return;
+        }
+        while (temp.next.next != null){
+            temp = temp.next;
+        }
+        temp.next = null;
+    }
     public LinkedList delete(int value){
         LinkedList head = this;
         LinkedList temp = this;

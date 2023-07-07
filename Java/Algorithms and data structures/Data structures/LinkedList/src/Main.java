@@ -14,8 +14,7 @@ public class Main {
         temp2.addLast(2);
         temp2.addLast(3);
         temp2.addLast(2);
-
-        //temp = temp.reverse();
+        temp.deleteLast();
         temp.print();
         System.out.println(temp.equals(temp2));
     }
