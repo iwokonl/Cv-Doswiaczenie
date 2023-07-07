@@ -28,7 +28,18 @@ public class LinkedList {
         }
         temp.next = new LinkedList(value);
     }
-
+    public LinkedList node(int index){
+        LinkedList temp = this;
+        int i = 0;
+        while (temp != null){
+            if(i == index){
+                return temp;
+            }
+            i++;
+            temp = temp.next;
+        }
+        return null;
+    }
     public LinkedList addFirst(int value){
         LinkedList head = new LinkedList(value);
         head.next = this;
