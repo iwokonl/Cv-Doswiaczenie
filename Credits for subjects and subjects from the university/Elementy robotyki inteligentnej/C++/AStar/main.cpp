@@ -166,7 +166,7 @@ public:
                 cout << hue::purple << i << " ";
             }
         }
-    cout << endl;
+        cout << endl;
 
 
     }
@@ -209,12 +209,6 @@ public:
                 }
             }
             closedList.push_back(current);
-            if (current->getX() > 0) {
-                current->setNeighbours(this->grid[current->getX() - 1][current->getY()]);
-            }
-            if (current->getX() < this->grid.size() - 1) {
-                current->setNeighbours(this->grid[current->getX() + 1][current->getY()]);
-            }
             if (current->getY() > 0) {
                 current->setNeighbours(this->grid[current->getX()][current->getY() - 1]);
             }
@@ -222,21 +216,33 @@ public:
             if (current->getY() < this->grid[0].size() - 1) {
                 current->setNeighbours(this->grid[current->getX()][current->getY() + 1]);
             }
+            if (current->getX() > 0) {
+                current->setNeighbours(this->grid[current->getX() - 1][current->getY()]);
+            }
+            if (current->getX() < this->grid.size() - 1) {
+                current->setNeighbours(this->grid[current->getX() + 1][current->getY()]);
+            }
+
             for(int i = 0; i < current->getNeighbours().size(); i++){
                 Spot *neighbour = current;
                 if (!includes(closedList, neighbour->getNeighbours()[i]) && neighbour->getNeighbours()[i]->getWartosc() != 5) {
                     double tempG = current->getG() + 1.0;
+                    bool newPath = false;
                     if (includes(openList, neighbour->getNeighbours()[i])) {
-                        if (tempG < neighbour->getNeighbours()[i]->getF()) {
+                        if (tempG < neighbour->getNeighbours()[i]->getG()) {
                             neighbour->getNeighbours()[i]->setG(tempG);
+                            newPath = true;
                         }
                     } else {
                         neighbour->getNeighbours()[i]->setG(tempG);
                         openList.push_back(neighbour->getNeighbours()[i]);
+                        newPath = true;
                     }
-                    neighbour->getNeighbours()[i]->setH(heuristic(neighbour, end));
-                    neighbour->getNeighbours()[i]->setF(neighbour->getG() + neighbour->getH());
+                    if(newPath){
+                    neighbour->getNeighbours()[i]->setH(heuristic(neighbour->getNeighbours()[i], end));
+                    neighbour->getNeighbours()[i]->setF(neighbour->getNeighbours()[i]->getG() + neighbour->getNeighbours()[i]->getH());
                     neighbour->getNeighbours()[i]->setPrevioues(current);
+                    }
                 }
             }
         }

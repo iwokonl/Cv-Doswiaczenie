@@ -1,4 +1,4 @@
-# Install script for directory: D:/github/Cv-Doswiaczenie/C++/AStar
+# Install script for directory: D:/github/Cv-Doswiaczenie/Credits for subjects and subjects from the university/Elementy robotyki inteligentnej/C++/AStar
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/github/Cv-Doswiaczenie/C++/AStar/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/github/Cv-Doswiaczenie/Credits for subjects and subjects from the university/Elementy robotyki inteligentnej/C++/AStar/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
