@@ -137,12 +137,13 @@ public:
     }
 
     void toString() {
+
         for (int i = 0; i < this->wysokosc; i++) {
-            if(i < 10){
-                cout << hue::purple << this->wysokosc - i -1 << " ";
+            if(this->wysokosc - i - 1 < 10){
+                cout << hue::purple << this->wysokosc - i -1 << "  ";
             }
             else{
-                cout << hue::purple << this->wysokosc - i -1 << "  ";
+                cout << hue::purple << this->wysokosc - i -1 << " ";
             }
             for (int j = 0; j < this->szerokosc; j++) {
                 if(this->grid[i][j]->getWartosc() == 5)
@@ -166,7 +167,7 @@ public:
             }
         }
     cout << endl;
-        cout<< hue::purple_on_grey << "Iwo Stanislawski"  << hue::reset;
+
 
     }
 
@@ -267,5 +268,6 @@ private:
 int main() {
     Grid grid("..\\generator\\grid.txt");
     grid.Astar();
+    cout<< hue::purple_on_grey << "Iwo Stanislawski"  << hue::reset;
     return 0;
 }
