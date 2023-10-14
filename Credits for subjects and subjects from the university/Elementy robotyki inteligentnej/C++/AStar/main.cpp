@@ -6,6 +6,7 @@
 #include <Windows.h>
 #include <chrono>
 #include "color.hpp"
+#include <cstdio>
 
 using namespace std;
 
@@ -273,6 +274,7 @@ private:
 
 
 int main() {
+
     auto start = std::chrono::high_resolution_clock::now();
     Grid grid("..\\generator\\grid.txt");
     grid.Astar();
