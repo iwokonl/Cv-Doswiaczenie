@@ -3,6 +3,9 @@
 #include <vector>
 #include <sstream>
 #include<cmath>
+#include <io.h>
+#include <fcntl.h>
+//#include "stdafx.h"
 using namespace std;
 
 class Spot {
@@ -144,10 +147,15 @@ public:
     }
 
     void toString() {
+        string temp2 = "▒";
         for (int i = 0; i < this->wysokosc; i++) {
             for (int j = 0; j < this->szerokosc; j++) {
-                std::cout << this->grid[i][j]->getWartosc() << " ";
-
+                if(this->grid[i][j]->getWartosc() == 5)
+                    std::cout << temp2;
+                if(this->grid[i][j]->getWartosc() == 2)
+                    std::cout << "#";
+                if(this->grid[i][j]->getWartosc() == 0)
+                    std::cout << this->grid[i][j]->getWartosc() << " ";
             }
             cout << endl;
         }
@@ -175,8 +183,7 @@ public:
                     current = openList[i];
                 }
             }
-            openList.erase(openList.begin());
-            closedList.push_back(current);
+
             if (current->getX() == end->getX() && current->getY() == end->getY()) {
                 Spot *temp = current;
                 while (temp->getPrevioues() != NULL) {
@@ -191,10 +198,15 @@ public:
                 this->grid[0][this->grid[0].size() - 1]->setsetWartosc(2);
 
                 cout << "Znaleziono sciezke" << endl;
-                cout << "Koszt ścieszki to: "<< path.size() << endl;
+                cout << "Koszt ściezki to: "<< path.size() << endl;
                 return;
             }
-
+            for(int i = 0;i<openList.size();i++) {
+                if (openList[i]->getX() == current->getX() && openList[i]->getY() == current->getY()) {
+                    openList.erase(openList.begin() + i);
+                }
+            }
+            closedList.push_back(current);
             if (current->getX() > 0) {
                 current->setNeighbours(this->grid[current->getX() - 1][current->getY()]);
             }
@@ -213,7 +225,7 @@ public:
                 if (!includes(closedList, neighbour->getNeighbours()[i]) && neighbour->getNeighbours()[i]->getWartosc() != 5) {
                     double tempG = current->getG() + 1.0;
                     if (includes(openList, neighbour->getNeighbours()[i])) {
-                        if (tempG < neighbour->getNeighbours()[i]->getG()) {
+                        if (tempG < neighbour->getNeighbours()[i]->getF()) {
                             neighbour->getNeighbours()[i]->setG(tempG);
                         }
                     } else {
@@ -249,6 +261,8 @@ private:
 
 
 int main() {
+    _setmode(_fileno(stdout), _O_U16TEXT);
+
     Grid grid("C:\\Users\\iwoko\\OneDrive\\Pulpit\\A\\grid.txt");
     grid.toString();
     grid.Astar();
