@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/iwoko/CLionProjects/AStar/cmake-build-debug",
-		"source" : "C:/Users/iwoko/CLionProjects/AStar"
+		"build" : "D:/github/Cv-Doswiaczenie/C++/AStar/cmake-build-debug",
+		"source" : "D:/github/Cv-Doswiaczenie/C++/AStar"
 	},
 	"version" : 
 	{

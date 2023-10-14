@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/iwoko/CLionProjects/AStar/cmake-build-debug"
+			"value" : "d:/github/Cv-Doswiaczenie/C++/AStar/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/iwoko/CLionProjects/AStar/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "D:/github/Cv-Doswiaczenie/C++/AStar/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/iwoko/CLionProjects/AStar"
+			"value" : "D:/github/Cv-Doswiaczenie/C++/AStar"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1275,7 +1275,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/iwoko/CLionProjects/AStar/cmake-build-debug"
+			"value" : "D:/github/Cv-Doswiaczenie/C++/AStar/cmake-build-debug"
 		},
 		{
 			"name" : "untitled2_IS_TOP_LEVEL",
@@ -1299,7 +1299,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/iwoko/CLionProjects/AStar"
+			"value" : "D:/github/Cv-Doswiaczenie/C++/AStar"
 		}
 	],
 	"kind" : "cache",

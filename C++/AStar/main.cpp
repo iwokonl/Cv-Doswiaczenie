@@ -10,8 +10,8 @@ using namespace std;
 
 class Spot {
 public:
-    Spot(int x, int y, int wartosc) {
-        this->wartosc = wartosc;
+    Spot(int x, int y, int value) {
+        this->wartosc = value;
         this->x = x;
         this->y = y;
         this->f = 0.0;
@@ -19,33 +19,40 @@ public:
         this->h = 0.0;
         this->previoues = nullptr;
         this->neighbours = {};
-
     }
 
     int getX() {
         return this->x;
     }
+
     int getY() {
         return this->y;
     }
+
     double getH() {
         return this->h;
     }
+
     double getF() {
         return this->f;
     }
+
     double getG() {
         return this->g;
     }
+
     Spot* getPrevioues() {
         return this->previoues;
     }
+
     vector<Spot*> &getNeighbours() {
         return this->neighbours;
     }
+
     void setNeighbours(Spot *x) {
         return this->neighbours.push_back(x);
     }
+
 
     void setPrevioues(Spot *spot) {
         this->previoues = spot;
@@ -54,28 +61,32 @@ public:
     void setX(int x) {
         this->x = x;
     }
+
     void setY(int y) {
         this->y = y;
     }
+
     void setH(double h) {
         this->h = h;
     }
+
     void setF(double f) {
         this->f = f;
     }
+
     void setG(double g) {
         this->g = g;
     }
+
     void setsetWartosc(int wartosc) {
         this->wartosc = wartosc;
     }
+
     int getWartosc() {
         return this->wartosc;
     }
 
-    vector<Spot*> getNeighbours(vector<vector<Spot>> grid) {
-        return this->neighbours;
-    }
+
 private:
     vector<Spot*> neighbours;
     Spot* previoues;
@@ -89,25 +100,20 @@ private:
 
 class Grid {
 public:
-    // Konstruktor
     Grid(string NazwaPliku) {
-        // Nazwa pliku do odczytu
         string nazwaPliku = NazwaPliku;
-
-        // Tworzenie obiektu strumienia pliku
         ifstream plik(nazwaPliku);
+        int liczba_kolumn = 0;
+        int x = 0;
+        int y = 0;
+        vector<vector<Spot *>> tekstZKoordynatami;
+        string linia;
 
         if (!plik.is_open()) {
             cerr << "Błąd otwarcia pliku." << endl;
             return;
         }
 
-        // Deklaracja wektora wektorów do przechowywania obiektów klasy Spot*
-        vector<vector<Spot *>> tekstZKoordynatami;
-        int liczba_kolumn = 0;
-        int x = 0;
-        int y = 0;
-        string linia;
         while (getline(plik, linia)) {
             istringstream iss(linia);
             vector<Spot *> wiersz;
@@ -115,40 +121,22 @@ public:
 
             while (iss >> liczba) {
                 wiersz.emplace_back(
-                        new Spot(x, y, liczba));  // Tworzenie obiektu klasy Spot i dodanie wskaźnika do wektora
+                        new Spot(x, y, liczba));
                 y++;
             }
             y = 0;
             tekstZKoordynatami.push_back(wiersz);
             x++;
         }
-
-        // Zamknięcie pliku po zakończeniu operacji na nim
         plik.close();
+
+
         this->grid = tekstZKoordynatami;
         this->szerokosc = this->grid[0].size();
         this->wysokosc = this->grid.size();
     }
 
-    // Metoda publiczna
-    int getSzerokosc() {
-        return this->szerokosc;
-    }
-    int getWysokosc() {
-        return this->wysokosc;
-    }
-
-    int getWartosc(int x, int y) {
-        return this->grid[y][x]->getWartosc();
-    }
-
-    vector<vector<Spot*>> &getGrid() {
-        return this->grid;
-    }
-
     void toString() {
-        string temp2 = "X ";
-        HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
         for (int i = 0; i < this->wysokosc; i++) {
             if(i < 10){
                 cout << hue::purple << this->wysokosc - i -1 << " ";
@@ -156,22 +144,18 @@ public:
             else{
                 cout << hue::purple << this->wysokosc - i -1 << "  ";
             }
-
             for (int j = 0; j < this->szerokosc; j++) {
-
                 if(this->grid[i][j]->getWartosc() == 5)
                     cout<< hue::red << "X  "  << hue::reset;
-
                 if(this->grid[i][j]->getWartosc() == 2)
-
                     cout<< hue::green << "#  "  << hue::reset;
-
                 if(this->grid[i][j]->getWartosc() == 0)
                     cout<< hue::blue << ".  "  << hue::reset;
             }
             cout << endl;
         }
         cout << hue::purple << "   ";
+
         for(int i = 0; i < this->szerokosc; i++){
             if(i < 10){
 
@@ -181,16 +165,9 @@ public:
                 cout << hue::purple << i << " ";
             }
         }
-    cout << endl;
+        cout << endl;
     }
-    void kordtoString() {
-        for (int i = 0; i < this->wysokosc; i++) {
-            for (int j = 0; j < this->szerokosc; j++) {
-                cout << this->grid[i][j]->getX() << " " << this->grid[i][j]->getY() << " ";
-            }
-            cout << endl;
-        }
-    }
+
     void Astar() {
         this->toString();
         vector<Spot *> path;
@@ -200,14 +177,12 @@ public:
         Spot *end = this->grid[0][this->grid[0].size() - 1];
         openList.push_back(start);
         while (!openList.empty()) {
-            //przyjrzeć się dodawaniu na listę w tym może być problem
             Spot *current = openList[0];
             for (int i = 0; i < openList.size(); i++) {
                 if (openList[i]->getF() < current->getF()) {
                     current = openList[i];
                 }
             }
-
             if (current->getX() == end->getX() && current->getY() == end->getY()) {
                 Spot *temp = current;
                 while (temp->getPrevioues() != NULL) {
@@ -245,7 +220,7 @@ public:
                 current->setNeighbours(this->grid[current->getX()][current->getY() + 1]);
             }
             for(int i = 0; i < current->getNeighbours().size(); i++){
-                Spot *neighbour = current;  // Use a reference here
+                Spot *neighbour = current;
                 if (!includes(closedList, neighbour->getNeighbours()[i]) && neighbour->getNeighbours()[i]->getWartosc() != 5) {
                     double tempG = current->getG() + 1.0;
                     if (includes(openList, neighbour->getNeighbours()[i])) {
@@ -278,8 +253,9 @@ public:
         }
         return false;
     }
+
+
 private:
-    // Pola prywatne
     vector<vector<Spot*>> grid;
     int wysokosc;
     int szerokosc;
@@ -289,7 +265,6 @@ private:
 int main() {
     Grid grid("..\\generator\\grid.txt");
     grid.Astar();
-    //Path path(&grid);
 
     return 0;
 }
