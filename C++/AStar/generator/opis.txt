@@ -1,0 +1,52 @@
+**************************************************************
+* Algorytm A gwiazdka - znajdowanie drogi w siatce kwadratów *
+*                                                            *
+*              autor: Piotr Barbarski                        *
+*                                                            *
+*       opis w wersji angielskiej w pliku readme.txt         *
+*                                                            *
+**************************************************************
+
+Opis:
+
+Program napisany w jêzyku JAVA, wyznaczaj¹cy za pomoc¹ algorytmu A gwiazdka optymaln¹ drogê od startu do celu, na mapie sk³adaj¹cej siê z siatki kwadratów pól. Jako heurystykê przyjêto odleg³oœæ Euklidesa. Jedynymi mo¿liwymi ruchami s¹ ruchy: góra, dó³, lewa, prawa. W takiej kolejnoœci przegl¹dane s¹ te¿ pola. W przypadku konfliktów wybierane jest ostatnio odwiedzone pole. U¿ytkownik mo¿e wygenerowaæ mapê przeszkód z poziomu programu korzystaj¹c z innego programu (generatora). Przeszkody oraz punkty startu i celu mog¹ byæ równie¿ ustalane za pomoc¹ myszy. Oprócz tego program oferuje mo¿liwoœæ zmiany domyœlnych kosztów dla ka¿dego z kierunków ruchu.
+
+
+*Instrukcja*
+
+Program uruchamiamy klikniêciem na plik Astar.jar
+
+Opis panelu ustawieñ:
+
+> Panel Actions - panel z guzikami wywo³uj¹cy konkretne akcje
+
+- Generate grid.txt file - generuje plik grid.txt za pomoc¹ do³¹czonego programu map_generator.exe (program map_generator.exe musi znajdowaæ siê w tym samym folderze co Astar.jar) i wczytuje do programu wygenerowan¹ mapê przeszkód
+
+- Edit grid.txt file - otwiera do edycji plik grid.txt (o ile istnieje) w domyœlnym systemowym edytorze np. notatnik
+
+- Load grid.txt file - wczytuje do programu mapê przeszkód z pliku grid.txt (o ile istnieje)
+
+- Clear map - czyœci mapê i ustawia domyœlne punkty startu i celu
+
+- Find path - znajduje drogê od punktu start do punktu end, dodatkowo mapa z rezultatami wyszukiwania zapisywana jest do pliku result_grid.txt, gdzie znaleziona œcie¿ka oznaczana jest numerem 3
+
+> Panel Edit mode - panel wyboru trybu edycji widocznej mapy
+
+- None - ¿aden tryb nie jest aktywny
+
+- Set barriers - tryb dodawania/usuwania przeszkód
+
+- Set start field - tryb definiowania pola start
+
+- Set end field - tryb definiowania pola end
+
+> Panel Movement costs - panel definiowania kosztów poszczególnych kierunków ruchu
+
+- UP - definiowanie kosztu dla ruchu w górê
+
+- DOWN - definiowanie kosztu dla ruchu w dó³
+
+- LEFT - definiowanie kosztu dla ruchu w lewo
+
+- RIGHT - definiowanie kosztu dla ruchu w prawo
+
