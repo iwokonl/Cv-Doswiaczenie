@@ -165,7 +165,9 @@ public:
                 cout << hue::purple << i << " ";
             }
         }
-        cout << endl;
+    cout << endl;
+        cout<< hue::purple_on_grey << "Iwo Stanislawski"  << hue::reset;
+
     }
 
     void Astar() {
@@ -265,6 +267,5 @@ private:
 int main() {
     Grid grid("..\\generator\\grid.txt");
     grid.Astar();
-
     return 0;
 }
