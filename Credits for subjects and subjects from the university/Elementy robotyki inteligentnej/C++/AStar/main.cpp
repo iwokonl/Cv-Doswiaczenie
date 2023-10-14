@@ -276,13 +276,10 @@ int main() {
     auto start = std::chrono::high_resolution_clock::now();
     Grid grid("..\\generator\\grid.txt");
     grid.Astar();
-    cout<< hue::light_aqua << "Iwo Stanislawski"  << hue::reset;
     auto stop = std::chrono::high_resolution_clock::now();
-
-    // Oblicz czas trwania w mikrosekundach
     auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
     std::cout << std::endl;
     std::cout<< "Czas wykonania: "<< hue::light_green << duration.count()/1000000.0 << " sekundy" << hue::reset << std::endl;
-
+    cout<< hue::light_aqua << "Iwo Stanislawski"  << hue::reset;
     return 0;
 }
