@@ -3,10 +3,8 @@
 #include <vector>
 #include <sstream>
 #include<cmath>
-#include <Windows.h>
 #include <chrono>
 #include "color.hpp"
-#include <cstdio>
 
 using namespace std;
 
