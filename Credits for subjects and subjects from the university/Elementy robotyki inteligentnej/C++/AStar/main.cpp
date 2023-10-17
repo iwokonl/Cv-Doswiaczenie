@@ -148,7 +148,7 @@ public:
             for (int j = 0; j < this->szerokosc; j++) {
                 if(this->grid[i][j]->getWartosc() == 5)
                     cout<< hue::red << "X  "  << hue::reset;
-                if(this->grid[i][j]->getWartosc() == 2)
+                if(this->grid[i][j]->getWartosc() == 3)
                     cout<< hue::green << "#  "  << hue::reset;
                 if(this->grid[i][j]->getWartosc() == 0)
                     cout<< hue::blue << ".  "  << hue::reset;
@@ -194,9 +194,9 @@ public:
                 }
 
                 for (int i = 0; i < path.size(); i++) {
-                    this->grid[path[i]->getX()][path[i]->getY()]->setsetWartosc(2);
+                    this->grid[path[i]->getX()][path[i]->getY()]->setsetWartosc(3);
                 }
-                this->grid[0][this->grid[0].size() - 1]->setsetWartosc(2);
+                this->grid[0][this->grid[0].size() - 1]->setsetWartosc(3);
 
                 std::cout << hue::green << "Znaleziono sciezke"<< hue::reset << std::endl;
                 std::cout << hue::green <<  "Koszt sciezki to: "<< path.size()<< hue::reset << std::endl;
