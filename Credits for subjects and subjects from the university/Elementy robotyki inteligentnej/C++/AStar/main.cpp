@@ -209,13 +209,14 @@ public:
                 }
             }
             closedList.push_back(current);
+            if (current->getY() < this->grid[0].size() - 1) {
+                current->setNeighbours(this->grid[current->getX()][current->getY() + 1]);
+            }
             if (current->getY() > 0) {
                 current->setNeighbours(this->grid[current->getX()][current->getY() - 1]);
             }
 
-            if (current->getY() < this->grid[0].size() - 1) {
-                current->setNeighbours(this->grid[current->getX()][current->getY() + 1]);
-            }
+
             if (current->getX() > 0) {
                 current->setNeighbours(this->grid[current->getX() - 1][current->getY()]);
             }
