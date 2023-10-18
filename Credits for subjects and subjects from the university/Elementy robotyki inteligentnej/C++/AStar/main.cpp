@@ -138,7 +138,10 @@ public:
 
     void save(){
         const char* filename = "..\\wyniki.txt";
-
+        if(this->grid[0][this->szerokosc -1]->getWartosc() == 0){
+            std::cout << hue::red << "Nie zapisuje poniewaz nie znaleziona sciezki ="<< hue::reset << std::endl;
+            return;
+        }
         std::ofstream outputFile(filename);
 
         if (!outputFile.is_open()) {
@@ -191,8 +194,6 @@ public:
             }
         }
         cout << endl;
-
-
     }
 
     void Astar() {
