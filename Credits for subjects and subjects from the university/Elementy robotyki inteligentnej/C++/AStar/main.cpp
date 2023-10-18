@@ -136,6 +136,30 @@ public:
         this->wysokosc = this->grid.size();
     }
 
+    void save(){
+        const char* filename = "..\\wyniki.txt";
+
+        std::ofstream outputFile(filename);
+
+        if (!outputFile.is_open()) {
+            std::cerr << "Nie można otworzyć pliku " << filename << std::endl;
+            return; // Kończymy program z kodem błędu
+        }
+
+
+        for (int i = 0; i < this->wysokosc; i++) {
+            for (int j = 0; j < this->szerokosc; j++) {
+                outputFile << this->grid[i][j]->getWartosc() << " ";
+            }
+            outputFile << '\n';
+        }
+
+        outputFile.close();
+
+        std::cout <<hue::green << "Plik " << filename << " zostal stworzony i dane zostaly zapisane do niego."  << std::endl<<  hue::reset;
+
+    }
+
     void toString() {
 
         for (int i = 0; i < this->wysokosc; i++) {
@@ -240,9 +264,9 @@ public:
                         newPath = true;
                     }
                     if(newPath){
-                    neighbour->getNeighbours()[i]->setH(heuristic(neighbour->getNeighbours()[i], end));
-                    neighbour->getNeighbours()[i]->setF(neighbour->getNeighbours()[i]->getG() + neighbour->getNeighbours()[i]->getH());
-                    neighbour->getNeighbours()[i]->setPrevioues(current);
+                        neighbour->getNeighbours()[i]->setH(heuristic(neighbour->getNeighbours()[i], end));
+                        neighbour->getNeighbours()[i]->setF(neighbour->getNeighbours()[i]->getG() + neighbour->getNeighbours()[i]->getH());
+                        neighbour->getNeighbours()[i]->setPrevioues(current);
                     }
                 }
             }
@@ -277,6 +301,7 @@ int main() {
     auto start = std::chrono::high_resolution_clock::now();
     Grid grid("..\\generator\\grid.txt");
     grid.Astar();
+    grid.save();
     auto stop = std::chrono::high_resolution_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
     std::cout << std::endl;
