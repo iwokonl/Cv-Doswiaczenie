@@ -55,6 +55,9 @@ public class Spot {
     public void setNeighbors(ArrayList<Spot> neighbors) {
         this.neighbors = neighbors;
     }
+    public void addNeighbors(Spot neighbors) {
+        this.neighbors.add(neighbors);
+    }
 
     public double getG() {
         return g;

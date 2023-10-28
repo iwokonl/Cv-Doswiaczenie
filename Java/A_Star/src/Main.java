@@ -4,7 +4,9 @@ import A_star.Grid;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        Grid grid = new Grid("src/A_star/grid.txt");
+        Grid grid = new Grid("src/A_star/generator/grid.txt");
+        grid = grid.A_star();
         System.out.println(grid);
+        System.out.println("Done!");
         }
     }
