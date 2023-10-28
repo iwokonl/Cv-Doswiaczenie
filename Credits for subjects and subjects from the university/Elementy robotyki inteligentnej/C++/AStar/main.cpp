@@ -138,10 +138,10 @@ public:
 
     void save(){
         const char* filename = "..\\wyniki.txt";
-        if(this->grid[0][this->szerokosc -1]->getWartosc() == 0){
-            std::cout << hue::red << "Nie zapisuje poniewaz nie znaleziona sciezki"<< hue::reset << std::endl;
-            return;
-        }
+//        if(this->grid[0][this->szerokosc -1]->getWartosc() == 0){
+//            std::cout << hue::red << "Nie zapisuje poniewaz nie znaleziona sciezki"<< hue::reset << std::endl;
+//            return;
+//        }
         std::ofstream outputFile(filename);
 
         if (!outputFile.is_open()) {
@@ -164,13 +164,26 @@ public:
     }
 
     void toString() {
+        cout << "  ";
+        for(int i = 0; i < this->szerokosc; i++){
+            if(i < 10){
 
-        for (int i = 0; i < this->wysokosc; i++) {
-            if(this->wysokosc - i - 1 < 10){
-                cout << hue::purple << this->wysokosc - i -1 << "  ";
+                cout << hue::purple << i << "  ";
             }
             else{
-                cout << hue::purple << this->wysokosc - i -1 << " ";
+                cout << hue::purple << i << " ";
+            }
+        }
+        cout << hue::purple << "   ";
+
+
+        cout << endl;
+        for (int i = 0; i < this->wysokosc; i++) {
+            if(this->wysokosc - i - 1 < 10){
+                cout << hue::purple << i<< "  ";
+            }
+            else{
+                cout << hue::purple << i << " ";
             }
             for (int j = 0; j < this->szerokosc; j++) {
                 if(this->grid[i][j]->getWartosc() == 5)
@@ -182,18 +195,7 @@ public:
             }
             cout << endl;
         }
-        cout << hue::purple << "   ";
 
-        for(int i = 0; i < this->szerokosc; i++){
-            if(i < 10){
-
-                cout << hue::purple << i << "  ";
-            }
-            else{
-                cout << hue::purple << i << " ";
-            }
-        }
-        cout << endl;
     }
 
     void Astar() {
@@ -201,11 +203,12 @@ public:
         vector<Spot *> path;
         vector<Spot *> openList;
         vector<Spot *> closedList;
-        Spot *start = this->grid[this->grid.size() - 1][0];
-        Spot *end = this->grid[0][this->grid[0].size() - 1];
+        Spot *start = this->grid[4][0];
+        Spot *end = this->grid[1][17];
         openList.push_back(start);
         while (!openList.empty()) {
             Spot *current = openList[0];
+
             for (int i = 0; i < openList.size(); i++) {
                 if (openList[i]->getF() < current->getF()) {
                     current = openList[i];
@@ -221,8 +224,8 @@ public:
                 for (int i = 0; i < path.size(); i++) {
                     this->grid[path[i]->getX()][path[i]->getY()]->setsetWartosc(3);
                 }
-                this->grid[0][this->grid[0].size() - 1]->setsetWartosc(3);
-
+                start->setsetWartosc(3);
+                end->setsetWartosc(3);
                 std::cout << hue::green << "Znaleziono sciezke"<< hue::reset << std::endl;
                 std::cout << hue::green <<  "Koszt sciezki to: "<< path.size()<< hue::reset << std::endl;
                 this->toString();
@@ -251,7 +254,7 @@ public:
 
             for(int i = 0; i < current->getNeighbours().size(); i++){
                 Spot *neighbour = current;
-                if (!includes(closedList, neighbour->getNeighbours()[i]) && neighbour->getNeighbours()[i]->getWartosc() != 5) {
+                if (!includes(closedList, neighbour->getNeighbours()[i]) && neighbour->getNeighbours()[i]->getWartosc() != 5 && current->getWartosc() != 5) {
                     double tempG = current->getG() + 1.0;
                     bool newPath = false;
                     if (includes(openList, neighbour->getNeighbours()[i])) {
