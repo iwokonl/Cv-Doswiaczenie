@@ -41,16 +41,16 @@ public class Grid
         List<Spot> closedSet = new List<Spot>();
         List<Spot> path = new List<Spot>();
         Spot start = this.grid[this.grid.Count-1][0];
-        Spot end = this.grid[this.grid.Count-1][this.grid.Count-1];
+        Spot end = this.grid[0][this.grid.Count-1];
         openSet.Add(start);
-        while(!openSet.Any()) {
+        while(openSet.Any()) {
             Spot current = openSet[0];
             foreach (var spot in openSet) {
                 if (spot.f < current.f) {
                     current = spot;
                 }
             }
-            if (current.Equals(end)) {
+            if (current.x == end.x && current.y == end.y ) {
                 Spot temp = current;
                 while (temp.previous != null) {
                     path.Add(temp);
@@ -70,41 +70,47 @@ public class Grid
                 }
             }
             if(current.y < this.grid[0].Count-1){
-                current.addNeighbors(this.grid.get(current.getX()).get(current.getY()+1));
+                current.neighbors.Add(this.grid[current.x][current.y+1]);
             }
             if (current.y  > 0) {
-                current.addNeighbors(this.grid.get(current.getX()).get(current.getY()-1));
+                current.neighbors.Add(this.grid[current.x][current.y-1]);
             }
             if (current.x > 0) {
-                current.addNeighbors(this.grid.get(current.getX() - 1).get(current.getY()));
+                current.neighbors.Add(this.grid[current.x-1][current.y]);
             }
             if (current.x < this.grid.Count - 1) {
-                current.neighbors.Add(this.grid.get(current.getX() + 1).get(current.getY()));
+                current.neighbors.Add(this.grid[current.x+1][current.y]);
             }
-            closedSet.add(current);
-            for (Spot neighbor : current.getNeighbors()) {
-                if (!closedSet.contains(neighbor) & neighbor.getValue() != 5 & current.getValue() != 5) {
-                    double tempG = current.getG() + 1;
-                    boolean newPath = false;
-                    if (openSet.contains(neighbor)) {
-                        if (tempG < neighbor.getG()) {
-                            neighbor.setG(tempG);
+            closedSet.Add(current);
+            foreach(Spot neighbor in current.neighbors) {
+                if (!closedSet.Contains(neighbor) & neighbor.value != 5 & current.value != 5) {
+                    double tempG = current.g + 1;
+                    bool newPath = false;
+                    if (openSet.Contains(neighbor)) {
+                        if (tempG < neighbor.g) {
+                            neighbor.g = tempG;
                             newPath = true;
                         }
                     } else {
-                        neighbor.setG(tempG);
+                        neighbor.g = tempG;
                         newPath = true;
-                        openSet.add(neighbor);
+                        openSet.Add(neighbor);
                     }
                     if (newPath) {
-                        neighbor.setH(heuristic(neighbor, end));
-                        neighbor.setF(neighbor.getG() + neighbor.getH());
-                        neighbor.setPrevious(current);
+                        neighbor.h = heuristic(neighbor, end);
+                        neighbor.f = neighbor.g + neighbor.h;
+                        neighbor.previous = current;
                     }
                 }
             }
         }
+        Console.WriteLine("Brak ścieżki");
         return this;
+        
+ }
+ 
+    double heuristic(Spot a, Spot b) {
+        return Math.Sqrt(Math.Pow(a.x - b.x, 2) + Math.Pow(a.y - b.y, 2));
     }
     public override string ToString()
     {

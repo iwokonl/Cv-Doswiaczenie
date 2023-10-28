@@ -17,17 +17,17 @@ public class Spot
         get => _y;
         set => _y = value;
     }
-    public int f
+    public double f
     {
         get => _f;
         set => _f = value;
     }
-    public int g
+    public double g
     {
         get => _g;
         set => _g = value;
     }
-    public int h
+    public double h
     {
         get => _h;
         set => _h = value;
@@ -56,9 +56,9 @@ public class Spot
     private int _value;
     private int _x;
     private int _y;
-    private int _f;
-    private int _g;
-    private int _h;
+    private double _f;
+    private double _g;
+    private double _h;
     private Spot _previous;
     private List<Spot> _neighbors;
 
