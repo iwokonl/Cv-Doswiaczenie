@@ -1,12 +1,16 @@
+package A_star;
+
 import java.util.ArrayList;
-import java.util.List;
 
 public class Spot {
 
-    Spot(int value, int x, int y) {
+    protected Spot(int value, int x, int y) {
         this.value = value;
         this.x = x;
         this.y = y;
+        this.h = 0;
+        this.g = 0;
+        this.f = 0;
         this.previous = null;
         this.neighbors = new ArrayList<>();
     }
@@ -51,9 +55,36 @@ public class Spot {
         this.neighbors = neighbors;
     }
 
+    public double getG() {
+        return g;
+    }
+
+    public void setG(double g) {
+        this.g = g;
+    }
+
+    public double getH() {
+        return h;
+    }
+
+    public void setH(double h) {
+        this.h = h;
+    }
+
+    public double getF() {
+        return f;
+    }
+
+    public void setF(double f) {
+        this.f = f;
+    }
+
     private int value;
     private int x;
     private int y;
     private Spot previous;
+    private double g;
+    private double h;
+    private double f;
     private ArrayList<Spot> neighbors;
 }
