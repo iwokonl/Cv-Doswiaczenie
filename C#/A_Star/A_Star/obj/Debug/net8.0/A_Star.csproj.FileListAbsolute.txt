@@ -1,0 +1,15 @@
+D:\github\Cv-Doswiaczenie\C#\A_Star\A_Star\obj\Debug\net8.0\A_Star.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\Cv-Doswiaczenie\C#\A_Star\A_Star\obj\Debug\net8.0\A_Star.AssemblyInfoInputs.cache
+D:\github\Cv-Doswiaczenie\C#\A_Star\A_Star\obj\Debug\net8.0\A_Star.AssemblyInfo.cs
+D:\github\Cv-Doswiaczenie\C#\A_Star\A_Star\obj\Debug\net8.0\A_Star.csproj.CoreCompileInputs.cache
+D:\github\Cv-Doswiaczenie\C#\A_Star\A_Star\obj\Debug\net8.0\A_Star.sourcelink.json
+D:\github\Cv-Doswiaczenie\C#\A_Star\A_Star\bin\Debug\net8.0\A_Star.exe
+D:\github\Cv-Doswiaczenie\C#\A_Star\A_Star\bin\Debug\net8.0\A_Star.deps.json
+D:\github\Cv-Doswiaczenie\C#\A_Star\A_Star\bin\Debug\net8.0\A_Star.runtimeconfig.json
+D:\github\Cv-Doswiaczenie\C#\A_Star\A_Star\bin\Debug\net8.0\A_Star.dll
+D:\github\Cv-Doswiaczenie\C#\A_Star\A_Star\bin\Debug\net8.0\A_Star.pdb
+D:\github\Cv-Doswiaczenie\C#\A_Star\A_Star\obj\Debug\net8.0\A_Star.dll
+D:\github\Cv-Doswiaczenie\C#\A_Star\A_Star\obj\Debug\net8.0\refint\A_Star.dll
+D:\github\Cv-Doswiaczenie\C#\A_Star\A_Star\obj\Debug\net8.0\A_Star.pdb
+D:\github\Cv-Doswiaczenie\C#\A_Star\A_Star\obj\Debug\net8.0\A_Star.genruntimeconfig.cache
+D:\github\Cv-Doswiaczenie\C#\A_Star\A_Star\obj\Debug\net8.0\ref\A_Star.dll
