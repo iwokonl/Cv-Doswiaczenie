@@ -2,11 +2,6 @@
 
 public class Grid
 {
-    
-    
-    
-    
-    
     public Grid(String path)
     {
         String line;
