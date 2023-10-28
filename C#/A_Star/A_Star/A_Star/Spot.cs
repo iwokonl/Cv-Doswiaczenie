@@ -42,7 +42,17 @@ public class Spot
         get => _neighbors;
         set => _neighbors = value;
     }
-    
+
+    public override bool Equals(object? obj)
+    {
+        if (obj == null || GetType() != obj.GetType())
+        {
+            return false;
+        }
+        Spot spot = (Spot)obj;
+        return spot.x == this.x && spot.y == this.y;
+    }
+
     private int _value;
     private int _x;
     private int _y;

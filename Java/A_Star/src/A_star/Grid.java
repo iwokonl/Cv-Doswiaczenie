@@ -6,12 +6,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class Grid {
     public Grid(String fileName) {
         this.grid = new ArrayList<>();
-
         List<String> lines = new ArrayList<>();
-
         try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
             String line;
             while ((line = br.readLine()) != null) {
