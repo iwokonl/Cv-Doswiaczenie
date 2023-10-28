@@ -30,17 +30,17 @@ public class Grid {
         ArrayList<Spot> openSet = new ArrayList<>();
         ArrayList<Spot> closedSet = new ArrayList<>();
         ArrayList<Spot> path = new ArrayList<>();
-        Spot start = this.grid.get(0).get(0);
+        Spot start = this.grid.get(this.grid.size() - 1).get(0);
         Spot end = this.grid.get(this.grid.size() - 1).get(this.grid.get(this.grid.size() - 1).size() - 1);
         openSet.add(start);
-        while (!openSet.isEmpty()) {
+        while(!openSet.isEmpty()) {
             Spot current = openSet.get(0);
             for (Spot spot : openSet) {
                 if (spot.getF() < current.getF()) {
                     current = spot;
                 }
             }
-            if (current == end) {
+            if (current.equals(end)) {
                 return this;
             }
             openSet.remove(current);
@@ -56,7 +56,6 @@ public class Grid {
                 } else if (tempG >= neighbor.getG()) {
                     continue;
                 }
-                neighbor.setPrevious(current);
                 neighbor.setG(tempG);
                 neighbor.setH(neighbor.getManhattanDistance(end));
                 neighbor.setF(neighbor.getG() + neighbor.getH());

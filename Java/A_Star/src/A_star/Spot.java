@@ -1,6 +1,7 @@
 package A_star;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class Spot {
 
@@ -77,6 +78,18 @@ public class Spot {
 
     public void setF(double f) {
         this.f = f;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Spot spot)) return false;
+        return getValue() == spot.getValue() && getX() == spot.getX() && getY() == spot.getY() && Double.compare(getG(), spot.getG()) == 0 && Double.compare(getH(), spot.getH()) == 0 && Double.compare(getF(), spot.getF()) == 0;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getValue(), getX(), getY(), getG(), getH(), getF());
     }
 
     private int value;
