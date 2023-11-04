@@ -34,12 +34,12 @@ public class Grid {
         openSet.add(start);
         while(!openSet.isEmpty()) {
             Spot current = openSet.get(0);
-            for (Spot spot : openSet) {
-                if (spot.getF() < current.getF()) {
-                    current = spot;
+            for (int i = 0;i<openSet.size();i++) {
+                if (openSet.get(openSet.size()-i-1).getF() < current.getF()) {
+                    current = openSet.get(openSet.size()-i-1);
                 }
             }
-            if (current.equals(end)) {
+            if (current == end) {
                 Spot temp = current;
                 while (temp.getPrevious() != null) {
                     path.add(temp);
@@ -52,12 +52,7 @@ public class Grid {
                 this.grid.get(end.getX()).get(end.getY()).setValue(3);
                 return this;
             }
-            for(Spot spot : openSet) {
-                if (spot.equals(current)) {
-                    openSet.remove(spot);
-                    break;
-                }
-            }
+            openSet.remove(current);
             if(current.getY() < this.grid.get(0).size()-1){
                 current.addNeighbors(this.grid.get(current.getX()).get(current.getY()+1));
             }
@@ -72,10 +67,10 @@ public class Grid {
             }
             closedSet.add(current);
             for (Spot neighbor : current.getNeighbors()) {
-                if (!closedSet.contains(neighbor) & neighbor.getValue() != 5 & current.getValue() != 5) {
+                if (neighbor.getValue() != 5 & current.getValue() != 5 & !include(neighbor,closedSet)) {
                     double tempG = current.getG() + 1;
                     boolean newPath = false;
-                    if (openSet.contains(neighbor)) {
+                    if (include(neighbor, openSet)) {
                         if (tempG < neighbor.getG()) {
                             neighbor.setG(tempG);
                             newPath = true;
@@ -96,8 +91,8 @@ public class Grid {
         return this;
     }
     private boolean include(Spot spot, ArrayList<Spot> list){
-        for (Spot s : list){
-            if (s == spot){
+        for(int i = 0;i<list.size();i++){
+            if (list.get(i) == spot){
                 return true;
             }
         }

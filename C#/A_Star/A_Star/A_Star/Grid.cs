@@ -1,4 +1,7 @@
-﻿namespace Main.A_Star;
+﻿using System.Reflection.PortableExecutable;
+using System.Text;
+
+namespace Main.A_Star;
 
 public class Grid
 {
@@ -13,12 +16,11 @@ public class Grid
             while (line != null)
             {
                 this.grid.Add(new List<Spot>());
-                char [] values = line.ToCharArray();
-                for(int i =0;i<values.Length;i++)
+                foreach (char a in line)
                 {
-                    if (values[i] != ' ')
+                    if (a != ' ')
                     {
-                        this.grid[this.grid.Count - 1].Add(new Spot((int)Char.GetNumericValue(values[i]), this.grid.Count - 1,this.grid[this.grid.Count - 1].Count));
+                        this.grid.Last().Add(new Spot((int)Char.GetNumericValue(a), this.grid.Count - 1,this.grid.Last().Count));
                     }
                 }
                 line = sr.ReadLine();
@@ -35,8 +37,8 @@ public class Grid
         List<Spot> openSet = new List<Spot>();
         List<Spot> closedSet = new List<Spot>();
         List<Spot> path = new List<Spot>();
-        Spot start = this.grid[this.grid.Count-1][0];
-        Spot end = this.grid[0][this.grid.Count-1];
+        Spot start = this.grid.Last().First();
+        Spot end = this.grid.First().Last();
         openSet.Add(start);
         while(openSet.Any()) {
             Spot current = openSet[0];
@@ -45,25 +47,21 @@ public class Grid
                     current = spot;
                 }
             }
-            if (current.x == end.x && current.y == end.y ) {
+            if (current.PositionEquals(end)) {
                 Spot temp = current;
                 while (temp.previous != null) {
                     path.Add(temp);
                     temp = temp.previous;
                 }
-                foreach(Spot spot in path) {
-                    this.grid[spot.x][spot.y].value = 3;
+                for(int i = 0;i<path.Count;i++){
+                    this.grid[path[i].x][path[i].y].value = 3;
                 }
                 this.grid[start.x][start.y].value = 3;
                 this.grid[end.x][end.y].value = 3;
                 return this;
             }
-            foreach(Spot spot in openSet) {
-                if (spot.Equals(current)) {
-                    openSet.Remove(spot);
-                    break;
-                }
-            }
+
+            openSet.Remove(current);
             if(current.y < this.grid[0].Count-1){
                 current.neighbors.Add(this.grid[current.x][current.y+1]);
             }
@@ -77,11 +75,12 @@ public class Grid
                 current.neighbors.Add(this.grid[current.x+1][current.y]);
             }
             closedSet.Add(current);
-            foreach(Spot neighbor in current.neighbors) {
-                if (!closedSet.Contains(neighbor) & neighbor.value != 5 & current.value != 5) {
+            for(int i = 0;i<current.neighbors.Count;i++) {
+                Spot neighbor = current.neighbors[i];
+                if (neighbor.value != 5 & current.value != 5 & !includes(closedSet,neighbor)) {
                     double tempG = current.g + 1;
                     bool newPath = false;
-                    if (openSet.Contains(neighbor)) {
+                    if (includes(openSet,neighbor)) {
                         if (tempG < neighbor.g) {
                             neighbor.g = tempG;
                             newPath = true;
@@ -107,18 +106,29 @@ public class Grid
     double heuristic(Spot a, Spot b) {
         return Math.Sqrt(Math.Pow(a.x - b.x, 2) + Math.Pow(a.y - b.y, 2));
     }
+    public bool includes(List<Spot> list, Spot spot)
+    {
+        for(int i = 0;i<list.Count;i++)
+        {
+            if (list[i] == spot)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
     public override string ToString()
     {
-        String result = "";
+        StringBuilder result = new StringBuilder();
         foreach (List<Spot> row in this.grid)
         {
             foreach (Spot spot in row)
             {
-                result += spot.value + " ";
+                result.Append(spot.value + " ");
             }
-            result += "\n";
+            result.Append( "\n");
         }
-        return result;
+        return result.ToString();
     }
 
     private List<List<Spot>> _grid;
