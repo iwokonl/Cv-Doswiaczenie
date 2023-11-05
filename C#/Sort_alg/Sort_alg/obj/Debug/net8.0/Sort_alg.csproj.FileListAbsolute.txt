@@ -1,0 +1,15 @@
+D:\github\Cv-Doswiaczenie\C#\Sort_alg\Sort_alg\bin\Debug\net8.0\Sort_alg.exe
+D:\github\Cv-Doswiaczenie\C#\Sort_alg\Sort_alg\bin\Debug\net8.0\Sort_alg.deps.json
+D:\github\Cv-Doswiaczenie\C#\Sort_alg\Sort_alg\bin\Debug\net8.0\Sort_alg.runtimeconfig.json
+D:\github\Cv-Doswiaczenie\C#\Sort_alg\Sort_alg\bin\Debug\net8.0\Sort_alg.dll
+D:\github\Cv-Doswiaczenie\C#\Sort_alg\Sort_alg\bin\Debug\net8.0\Sort_alg.pdb
+D:\github\Cv-Doswiaczenie\C#\Sort_alg\Sort_alg\obj\Debug\net8.0\Sort_alg.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\Cv-Doswiaczenie\C#\Sort_alg\Sort_alg\obj\Debug\net8.0\Sort_alg.AssemblyInfoInputs.cache
+D:\github\Cv-Doswiaczenie\C#\Sort_alg\Sort_alg\obj\Debug\net8.0\Sort_alg.AssemblyInfo.cs
+D:\github\Cv-Doswiaczenie\C#\Sort_alg\Sort_alg\obj\Debug\net8.0\Sort_alg.csproj.CoreCompileInputs.cache
+D:\github\Cv-Doswiaczenie\C#\Sort_alg\Sort_alg\obj\Debug\net8.0\Sort_alg.sourcelink.json
+D:\github\Cv-Doswiaczenie\C#\Sort_alg\Sort_alg\obj\Debug\net8.0\Sort_alg.dll
+D:\github\Cv-Doswiaczenie\C#\Sort_alg\Sort_alg\obj\Debug\net8.0\refint\Sort_alg.dll
+D:\github\Cv-Doswiaczenie\C#\Sort_alg\Sort_alg\obj\Debug\net8.0\Sort_alg.pdb
+D:\github\Cv-Doswiaczenie\C#\Sort_alg\Sort_alg\obj\Debug\net8.0\Sort_alg.genruntimeconfig.cache
+D:\github\Cv-Doswiaczenie\C#\Sort_alg\Sort_alg\obj\Debug\net8.0\ref\Sort_alg.dll
