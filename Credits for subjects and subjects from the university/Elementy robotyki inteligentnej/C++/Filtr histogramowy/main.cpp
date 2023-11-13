@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
-
+int horizontal = 0;
+int vertical = 0;
 void sens(int z, std::vector<std::vector<double>> &p, std::vector<std::vector<int>> &w) {
     double precyzja = 0.8;
     double suma = 0;
@@ -52,6 +53,7 @@ void move(std::vector<std::vector<double>>& probabilities) {
 
             // Wybór lepszej opcji
             row.push_back(std::max(temp_horizontal, temp_vertical));
+
         }
         new_probabilities.push_back(row);
     }
@@ -65,13 +67,14 @@ void move(std::vector<std::vector<double>>& probabilities) {
 
 int main() {
     // zielony 1 , czerwony 2 bialy 3 czarny 4
+
     std::vector<std::vector<int>> w = {{1,2,3,4,5},
                                        {6,7,8,9,10},
                                        {4,4,4,4,4}};//tutaj mapa swiata czerwony 0, zielony 1, bialy 2, czarny 3
     std::vector<std::vector<double>> p = {{1.0/15, 1.0/15, 1.0/15, 1.0/15, 1.0/15},
                                           {1.0/15, 1.0/15, 1.0/15, 1.0/15, 1.0/15},
                                           {1.0/15, 1.0/15, 1.0/15, 1.0/15, 1.0/15}};//tutaj prawdopodobienstwo poczatkowe
-    std::vector<int> z = {1,2,3,4};//tutaj odczyty z czujnikow
+    std::vector<int> z = {1,2,3,4,5 };//tutaj odczyty z czujnikow
 
     std::cout << "Poczatkowe prawdopodobienstwo: " << std::endl;
     for (int i = 0; i < p.size(); ++i) {
@@ -81,7 +84,7 @@ int main() {
         std::cout << std::endl;
     }
     std::cout << std::endl;
-
+    int prev_max_i = 0, prev_max_j = 0;
     for (int i = 0; i < z.size(); ++i) {
         sens(z[i], p, w);
         std::cout << "Aktualizacja prawdopodobienstwa po pomiarze: " << std::endl;
@@ -93,6 +96,7 @@ int main() {
         }
         std::cout << std::endl;
 
+
         move(p);
         std::cout << "Po ruchu: " << std::endl;
         for (int j = 0; j < p.size(); ++j) {
@@ -102,6 +106,38 @@ int main() {
             std::cout << std::endl;
         }
         std::cout << std::endl;
+        int max_i = 0, max_j = 0;
+        double max_val = p[0][0];
+        for (int j = 0; j < p.size(); ++j) {
+            for (int k = 0; k < p[j].size(); ++k) {
+                if (p[j][k] > max_val) {
+                    max_val = p[j][k];
+                    max_i = j;
+                    max_j = k;
+                }
+            }
+        }
+
+        // Sprawdzamy, czy największe prawdopodobieństwo przesunęło się pionowo czy poziomo
+        if (max_i != prev_max_i ) {
+            vertical++;
+        } else if (max_j != prev_max_j) {
+            horizontal++;
+        } else {
+            std::cout << "Największe prawdopodobieństwo nie przesunęło się.\n";
+        }
+
+        // Aktualizujemy poprzednie indeksy
+        prev_max_i = max_i;
+        prev_max_j = max_j;
+    }
+    std::cout << horizontal << " " << vertical << std::endl;
+    if (horizontal > vertical) {
+        std::cout << "Robot przesunął się w poziomie.\n";
+    } else if (vertical > horizontal) {
+        std::cout << "Robot przesunął się w pionie.\n";
+    } else {
+        std::cout << "Robot nie przesunął się.\n";
     }
     return 0;
 }
