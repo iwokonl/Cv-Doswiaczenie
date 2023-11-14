@@ -30,8 +30,8 @@ for i = 1:2
 end
 disp(B);
 z=[1];
-for i=1:4
-    z(i+1) = z(i)+1
+for i=1:10
+    z(i+1) = 2*z(i)+1
     if modulo(i,2)==0 then
     disp(z(i))
     end
