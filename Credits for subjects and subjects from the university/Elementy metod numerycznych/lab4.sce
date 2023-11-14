@@ -12,19 +12,30 @@ function y=f2(x,h)
     y=(f1(x+h,h)-f1(x,h))/h
 endfunction
 r=4;
-a=-4;
-b=0.5;
+a=0.5;
+b=2;
 nmax = 50
 h=0.001;
 wi=0;
+xr = []
+aaa = 1
 if(f(a)*f(b)<0) then
-    while 4<5
+    while 4<5 && wi ~= nmax
         if(f1(a+h)*f1(b+h)>0) && (f2(a+h)*f2(b+h)>0)then
             disp("Warunek został spełniony")
             break;
         else
             wi= wi + 1;
             xb = (a+b)/2
+            xr(aaa)=xb;
+            aaa = aaa +1;
+            if a >= 2 then
+            for ai = 2:aaa
+            if abs(xr(ai)- xr(ai-1) ) < 10^(-r) then
+                break;
+             end
+         end
+         end
                 if f(a)*f(xb) < 0 then
                    b = xb
                 else
@@ -41,9 +52,9 @@ if(f(a)*f(b)<0) then
     end
     iii = 2
     if(f1(a+h)*f1(b+h)>0) && (f2(a+h)*f2(b+h)>0)then
-    while 4 < 5
+    while 4 < 5 
         xt(iii) = xt(iii-1)-(((f(xt(iii-1)))/(f(c)-f(xt(iii-1))))*(c-xt(iii-1)))
-        
+        wi = wi +1;
         if wi > nmax then
             disp("nie udało się osiągnąć żadnej dkoładności")
             break;
