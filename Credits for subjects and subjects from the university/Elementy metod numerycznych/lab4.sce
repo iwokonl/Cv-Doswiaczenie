@@ -5,11 +5,11 @@ clear;
 function y=f(x)
     y=(x^2-3)*sin(x)
 endfunction
-function y=f1(x,zzz)
-    y=(f(x+zzz)-f(x))/zzz
+function y=f1(x,h)
+    y=(f(x+h)-f(x))/h
 endfunction
-function y=f2(x,zzz)
-    y=(f1(x+zzz,zzz)-f1(x,zzz))/zzz
+function y=f2(x,h)
+    y=(f1(x+h,h)-f1(x,h))/h
 endfunction
 r=4;
 a=0.5;

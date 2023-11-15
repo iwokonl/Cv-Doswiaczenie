@@ -1,0 +1,6 @@
+
+‹
+java:S13193"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¥„¦ûÿÿÿÿÿ
+
+java:S13197"iThe type of "neighbors" should be an interface such as "List" rather than the implementation "ArrayList".(¦ÛÅý
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ÿ—„ÿ

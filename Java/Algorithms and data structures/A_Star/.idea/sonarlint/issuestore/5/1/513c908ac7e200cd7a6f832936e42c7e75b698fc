@@ -1,0 +1,19 @@
+
+)
+java:S1700u"Rename field "grid"( Å„
+`
+java:S2184g"ECast one of the operands of this subtraction operation to a "double".(£ÌË”úÿÿÿÿ
+`
+java:S2184g"ECast one of the operands of this subtraction operation to a "double".(£ÌË”úÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ÿ—„ÿ
+@
+java:S1481"*Remove this unused "lines" local variable.(—Í‰§
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ÉÊÜ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 41 to the 15 allowed.(½ÉÊÜ
+|
+java:S2178F"fCorrect this "&" to "&&" and extract the right operand to a variable if it should always be evaluated.(üŸÆ­
+|
+java:S2178F"fCorrect this "&" to "&&" and extract the right operand to a variable if it should always be evaluated.(üŸÆ­
+Ü
+java:S6541"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 65 to 64, Complexity from 16 to 14, Nesting Level from 5 to 2, Number of Variables from 12 to 6.(½ÉÊÜ
