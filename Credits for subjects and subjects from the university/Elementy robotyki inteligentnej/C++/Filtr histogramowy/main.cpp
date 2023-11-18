@@ -74,16 +74,16 @@ void move(std::vector<std::vector<double>>& p, const std::string& direction) {
     p = q; // Assign back to the original vector
 }
 int main() {
-    // zielony 1 , czerwony 2 bialy 3 czarny 4
+    // zielony 3 , czerwony 5 bialy 6 czarny 1
 
-    std::vector<std::vector<int>> w = {{1,2,3,2,3},
-                                       {3,4,1,3,2},
-                                       {1,2,3,2,1}};//tutaj mapa swiata czerwony 0, zielony 1, bialy 2, czarny 3
+    std::vector<std::vector<int>> w = {{1,5,6,5,3},
+                                       {5,6,3,1,6},
+                                       {6,5,6,5,3}};//tutaj mapa swiata czerwony 0, zielony 1, bialy 2, czarny 3
     std::vector<std::vector<double>> p = {{1.0/15, 1.0/15, 1.0/15, 1.0/15, 1.0/15},
                                           {1.0/15, 1.0/15, 1.0/15, 1.0/15, 1.0/15},
                                           {1.0/15, 1.0/15, 1.0/15, 1.0/15, 1.0/15}};//tutaj prawdopodobienstwo poczatkowe
     //std::vector<int> z = {3,4,1,3,2};//tutaj odczyty z czujnikow
-    std::vector<int> z = {1,3,1};//tutaj odczyty z czujnikow
+    std::vector<int> z = {6,5,6,5,3};//tutaj odczyty z czujnikow
 
     std::cout << "Poczatkowe prawdopodobienstwo: " << std::endl;
     for (int i = 0; i < p.size(); ++i) {
@@ -108,7 +108,7 @@ int main() {
         if(i == z.size() - 1) {
             break;
         }
-        move(p,"up");
+        move(p,"down");
         std::cout << "Po ruchu: " << std::endl;
         for (int j = 0; j < p.size(); ++j) {
             for (int k = 0; k < p[j].size(); ++k) {
