@@ -1,0 +1,13 @@
+# This is a sample Python script.
+
+# Press Shift+F10 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+def convert(k, x):
+    x = x - k
+    if (x > 180):
+        x = x - 360
+    elif (x < -180):
+        x = x + 360
+    return x
+
+print(convert(0, 190))
