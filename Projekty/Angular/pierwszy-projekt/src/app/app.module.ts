@@ -1,14 +1,18 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AppComponent } from './app.component';  // Upewnij się, że ścieżka jest poprawna
+
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    // Usuń deklarację AppComponent z tego miejsca
+    AppComponent
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule
   ],
-  bootstrap: [AppComponent],  // Tu pozostaw tylko bootstrap z AppComponent
+  providers: [],
+  bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }
