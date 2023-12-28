@@ -7,6 +7,7 @@ public class Main {
         long startTime = System.currentTimeMillis();
     }
     public static void main(String[] args) {
+
         long startTime = System.currentTimeMillis();
         Grid grid = new Grid("src/A_star/generator/grid.txt");
         grid = grid.A_star();

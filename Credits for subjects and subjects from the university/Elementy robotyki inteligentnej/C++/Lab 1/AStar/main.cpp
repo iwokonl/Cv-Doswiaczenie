@@ -203,8 +203,8 @@ public:
         vector<Spot *> path;
         vector<Spot *> openList;
         vector<Spot *> closedList;
-        Spot *start = this->grid[4][0];
-        Spot *end = this->grid[1][17];
+        Spot *start = this->grid[19][0];
+        Spot *end = this->grid[0][19];
         openList.push_back(start);
         while (!openList.empty()) {
             Spot *current = openList[0];
