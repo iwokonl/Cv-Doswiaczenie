@@ -1,0 +1,12 @@
+
+7
+java:S1220""Move this file to a named package.8¥°¦Ğ1
+i
+java:S1659"LDeclare "markedZeroInCol" and all following declarations on a separate line.(Ä…¯¢8¬²¦Ğ1
+t
+java:S3776h"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¯×ôÈøÿÿÿÿ8´²¦Ğ1
+D
+java:S1168ˆ"&Return an empty array instead of null.(¥¹ï8¶²¦Ğ1
+M	java:S106Ç"+Replace this use of System.out by a logger.(ä–İëûÿÿÿÿ8¹²¦Ğ1
+M	java:S106Ë"+Replace this use of System.out by a logger.(ñ›Šüÿÿÿÿ8º²¦Ğ1
+M	java:S106Î"+Replace this use of System.out by a logger.(û¿¬ıÿÿÿÿ8º²¦Ğ1
