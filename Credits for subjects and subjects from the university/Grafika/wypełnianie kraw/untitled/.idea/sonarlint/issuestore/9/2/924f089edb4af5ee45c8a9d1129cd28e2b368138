@@ -1,4 +1,5 @@
 
-0
-java:S1220""Move this file to a named package.
-E	java:S106"+Replace this use of System.out by a logger.(‚ÞÏ¥ýÿÿÿÿ
+7
+java:S1220""Move this file to a named package.8“¨„¡Ë1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8°¨„¡Ë1
