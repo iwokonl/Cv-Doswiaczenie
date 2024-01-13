@@ -1,0 +1,12 @@
+
+0
+java:S1220""Move this file to a named package.
+p
+java:S3008"NRename this field "MAX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«†•úÿÿÿÿ8şĞ¨¥Ğ1
+]	java:S107'"<Method has 8 parameters, which is greater than 7 authorized.(±¿Ûèúÿÿÿÿ8€Ñ¨¥Ğ1
+X	java:S107@"<Method has 8 parameters, which is greater than 7 authorized.(Áƒğ‡8€Ñ¨¥Ğ1
+L	java:S106"+Replace this use of System.out by a logger.(ĞÃ‰»şÿÿÿÿ8‚Ñ¨¥Ğ1
+t
+java:S3776'"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(±¿Ûèúÿÿÿÿ8„Ñ¨¥Ğ1
+o
+java:S3776@"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(Áƒğ‡8‡Ñ¨¥Ğ1
