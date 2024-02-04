@@ -27,4 +27,5 @@ Następnie tworzymy odbiorców/nasłuchujących PrognozaPanel, StatystykaPanel, 
 czyli instagram do którego wysyłąsz informacje "siema dałem follow'a/serduszko" Potem po tej informacji podmiot wysyła informacje do interesariusza czyli do konta któremu się wykonało taką akcje.
 Jest to relacja jeden do wielu(1:N) i jest to wzorzec. Wzorzec behawioralny. Jeśli implemetujesz ten wzorzec postaraj się żeby był na tyle elastyczny w interfejsie(metoda aktualizacja nie przyjmowała
 żadnych argumentó ponieważ będziesz musiał zmieniać to w wszystkich plikach, interfejsie itd. zamiast tego zrób gettery i settery i w danej klasie nasłuchującej w metodzie aktualizacja dodaj getTemeratura np.).
+Prawdopodobnie może się to sprawdzać w wiadomościach push, kiedy są braki na magazynie itd.
  */

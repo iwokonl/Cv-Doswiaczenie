@@ -9,8 +9,6 @@ J
 src/Pogoda/Obserwator.java,b\b\bb7afaea79181a28b9371590bd338105ab7ba8e0
 Q
 !src/Pogoda/PanelObserwacyjny.java,d\d\ddccb126d6578c5248ab5ea0815715798419ea32
-P
- src/Pogoda/WarunkiBierzące.java,3\1\31afba05b4b7b6ac3a120ae0af97c71a4e7756ad
 O
 src/Pogoda/StatystykaPanel.java,b\1\b1ef5051b2d9fa2f62af7926d83354a2d80f83e0
 I
