@@ -16,8 +16,8 @@ public class Main {
 /*
 Według mnie rozwiązanie to można stosować kiedy wiemy lub przypuszczamy, że pojawią się jakieś nowe funkcjonalności i opcje
 np. mamy zrobić aplikacje do zamawiania jedzienie i w niej na początku bo jest brak terminala online dodajemy odbiór
-na miejscui na wynos. Wiedzieliśmy tylko o terminalu więc mamy szanse go dodać, ale właściciel restauracji kazał nam dodać
-opcje na dowóz, więc mamy krytą dupe. Działa to tak, że mamy coś całego np klasę Jedzenie odbiór tworzymy ją w taki sposób
+na miejscu, na wynos. Wiedzieliśmy tylko o terminalu więc mamy szanse go dodać, ale właściciel restauracji kazał nam dodać
+opcje na dowóz, więc mamy krytą dupe. Działa to tak, że mamy coś całego np klasę Jedzenie, odbiór tworzymy ją w taki sposób
 aby w trakcie działania programu można było zmienić sposób dostawy(funkcjonalność obiektu) np.(Wyjaśnienie sposobu działania)
 użytkownik chce zrobić sobie zamówienie no to klasa główna to "Zamówienie" dodajemy interfejs
 ZamówienieZachowanie(interfejs wymusza na nas implementacje metod ale jest bardziej
@@ -29,7 +29,7 @@ samym tworzeniu wyobraź sobie, że najebiałeś jak pojeb wszędzie if'y i cał
 jest 1000 linijek niby fajnie, ale w zespole nie robisz sam i jak ktoś ma pracować nad projektem kiedy ty pushujesz zmiany chłop pushuje
 zmiany i koniec końców jest to robota głupiego bo zmiany któregoś zostaną usunięte, a tak to rzeczy zmienne wrzucasz do Hermetycznych zachowań/strategii i
 każdy robi co ma zrobić oraz nie przeszkadzają sobie w pracy. Sposób kompozycji usuwa wady dziedziczenia i pomaga nam zapanować nad programem.
-Jest to wzorzec bechawioralny. Tego typu wzorce tyczą się algorytmów i dzielą odpowiedzialność na obiekty.
+Jest to wzorzec behawioralny. Tego typu wzorce tyczą się algorytmów i dzielą odpowiedzialność na obiekty.
 Materiały:
 Książka wyd. II rozdział I, Wzorce projektowe rusz głową.
 https://refactoring.guru/pl/design-patterns/strategy
