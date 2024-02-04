@@ -1,6 +1,4 @@
-import Gra.Król;
-import Gra.Postać;
-import Gra.ŁukiStrzałyZachowanie;
+import Gra.*;
 
 public class Main {
     public static void main(String[] args) {
