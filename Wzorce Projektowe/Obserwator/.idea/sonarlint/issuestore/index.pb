@@ -17,3 +17,5 @@ I
 src/Pogoda/NowyPanel.java,d\f\df400596f595456675ee1111422a6bd36b665818
 M
 src/Pogoda/PrognozaPanel.java,9\5\9514e318c939a73d3ec9e5693fa72d9095e4bc11
+P
+ src/Pogoda/WarunkiBieżące.java,e\a\eadae275f04d41a14890146a5911939199661810

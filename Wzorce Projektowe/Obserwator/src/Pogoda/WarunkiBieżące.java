@@ -1,17 +1,17 @@
 package Pogoda;
 
-public class WarunkiBierzące implements PanelObserwacyjny, Obserwator{
+public class WarunkiBieżące implements PanelObserwacyjny, Obserwator{
     private float temperatura;
     private float wilgotność;
     private DanePogodowe danePogodowe;
-    public WarunkiBierzące(DanePogodowe danePogodowe){
+    public WarunkiBieżące(DanePogodowe danePogodowe){
         this.danePogodowe = danePogodowe;
         danePogodowe.zarejestrójObserwator(this);
     }
     @Override
-    public void aktualizacja(float temp, float wilgotność, float ciśnienie) {
-        this.temperatura = temp;
-        this.wilgotność = wilgotność;
+    public void aktualizacja() {
+        this.temperatura = danePogodowe.pobierzTemperaturę();
+        this.wilgotność = danePogodowe.pobierzWilogtność();
         wyświetl();
     }
 

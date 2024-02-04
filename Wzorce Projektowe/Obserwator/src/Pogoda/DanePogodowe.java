@@ -7,14 +7,14 @@ public class DanePogodowe implements Podmiot_ObiektObserwowany{
     public DanePogodowe(){
         obserwatory = new ArrayList<>();
     }
-    void pobierzTemperaturę(){
-
+    float pobierzTemperaturę(){
+        return this.temperatura;
     }
-    void pobierzWilogtność(){
-
+    float pobierzWilogtność(){
+        return this.wilgotność;
     }
-    void pobierzCiśnienie(){
-
+    float pobierzCiśnienie(){
+        return this.ciśnienie;
     }
 
     void zmienionoOdczyt(){
@@ -38,7 +38,7 @@ public class DanePogodowe implements Podmiot_ObiektObserwowany{
     @Override
     public void powiadomObserwator() {
         for(Obserwator obserwator:obserwatory){
-            obserwator.aktualizacja(temperatura,wilgotność,ciśnienie);
+            obserwator.aktualizacja();
         }
     }
 

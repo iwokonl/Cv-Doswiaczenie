@@ -1,12 +1,12 @@
 
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëõıİ8Áàú±×1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñïœ­8Ïó²×1
 7
-java:S1220""Move this file to a named package.8Ñàú±×1
-`
-java:S1854"CRemove this useless assignment to local variable "statystykaPanel".(å«ÈÄ8áàú±×1
+java:S1220""Move this file to a named package.8Ïó²×1
 a
-java:S1854"DRemove this useless assignment to local variable "warunkiBierzÄ…ce".(ëõıİ8´ïÿ±×1
+java:S1854"DRemove this useless assignment to local variable "warunkiBieÅ¼Ä…ce".(Ñïœ­8¹¥€³×1
 R
-java:S1481"5Remove this unused "warunkiBierzÄ…ce" local variable.(ëõıİ8µïÿ±×1
-Q
-java:S1481"4Remove this unused "statystykaPanel" local variable.(å«ÈÄ8éàş±×1
+java:S1481"5Remove this unused "warunkiBieÅ¼Ä…ce" local variable.(Ñïœ­8»¥€³×1
+L	java:S106"+Replace this use of System.out by a logger.(ŞÒ—üÿÿÿÿ8˜Ïó²×1
+L	java:S106"+Replace this use of System.out by a logger.(ŞÒ—üÿÿÿÿ8¶¨õ²×1
+L	java:S106"+Replace this use of System.out by a logger.(ŞÒ—üÿÿÿÿ8¶¨õ²×1
+L	java:S106"+Replace this use of System.out by a logger.(ŞÒ—üÿÿÿÿ8¶¨õ²×1
