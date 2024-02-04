@@ -25,5 +25,6 @@ Zasada jest taka że obiekty obserwujące nasłuchują co ma im do powiedzenia p
 tworzymy interfejs który musi mieć takie metody jak: (ponieważ jest to wymagane dla obiektu który wysyła informacje) usuńObserwatora, dodajObserwatora i powiadomObserwatory.
 Następnie tworzymy odbiorców/nasłuchujących PrognozaPanel, StatystykaPanel, WarunkiBieżące. Sytuacja jest analogiczna jak dajesz followa albo serduszko komuś na instagramie. Jest podmiot
 czyli instagram do którego wysyłąsz informacje "siema dałem follow'a/serduszko" Potem po tej informacji podmiot wysyła informacje do interesariusza czyli do konta któremu się wykonało taką akcje.
-Jest to relacja jeden do wielu(1:N) i jest to wzorzec. Wzorzec behawioralny.
+Jest to relacja jeden do wielu(1:N) i jest to wzorzec. Wzorzec behawioralny. Jeśli implemetujesz ten wzorzec postaraj się żeby był na tyle elastyczny w interfejsie(metoda aktualizacja nie przyjmowała
+żadnych argumentó ponieważ będziesz musiał zmieniać to w wszystkich plikach, interfejsie itd. zamiast tego zrób gettery i settery i w danej klasie nasłuchującej w metodzie aktualizacja dodaj getTemeratura np.).
  */
