@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        double r = 18; // radius
+        double r = 100; // radius
         int i = 0; // x-axis
-        int j = 18; // y-axis
+        int j = 100; // y-axis
         double f = 5 - 4*r;
         System.out.print("i = " + i + ", j = " + j + ", f = " + f + " ");
         System.out.println("x = " + i + ", y = " + (Math.sqrt(Math.pow(r,2))- Math.sqrt(Math.pow(i,2))) + ", f = " + f);
@@ -20,4 +20,4 @@ public class Main {
         }
     }
 }
-311,25
+
