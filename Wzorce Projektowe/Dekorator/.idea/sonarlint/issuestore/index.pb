@@ -60,3 +60,13 @@ M
 src/LowerCaseInputStream.java,a\7\a782c97ec6efe8ce1e7cdfeb1a455411791594d9
 <
 src/test.txt,8\6\8697c115c491c5f18f6d658f44b3ee38ebc27cf1
+J
+src/Notifier/Notifier.java,5\3\533a7ce45e119edf27e83ec641fb2d684109c915
+R
+"src/Notifier/Obiektdekorowany.java,5\e\5e8ed2d36cd9120d90b21d3efc9590ef7d300be2
+E
+src/Notifier/SMS.java,c\c\cc822e2393056c6e34ee6b3e87ea9393e249cf25
+D
+src/Notifier/FB.java,2\7\2708e03721fd83d199ff52b33b6bd92bec315d98
+G
+src/Notifier/mainb.java,e\e\eec7191c0c5b70bc383237b715050abc457df827
