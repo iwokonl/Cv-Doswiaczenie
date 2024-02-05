@@ -1,6 +1,8 @@
-package ver2;
+package ver2.ObiektDekorowany;
 
-public class Deluxe implements NapójInterfejs{
+import ver2.NapójInterfejs;
+
+public class Deluxe implements NapójInterfejs {
     @Override
     public String opis() {
         return "Kawa deluxe";

@@ -1,6 +1,8 @@
-package ver2;
+package ver2.Dekorator;
 
-public class Czekolada2 implements NapójInterfejs{
+import ver2.NapójInterfejs;
+
+public class Czekolada2 implements NapójInterfejs {
     private NapójInterfejs napójInterfejs;
     public Czekolada2(NapójInterfejs napójInterfejs){
         this.napójInterfejs = napójInterfejs;

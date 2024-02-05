@@ -1,6 +1,8 @@
-package ver1;
+package ver1.ObiektDekorowany;
 
-public class Espressso extends Napój{
+import ver1.Napój;
+
+public class Espressso extends Napój {
     public Espressso(){
         ustawOpis("Kawa Espresso");
     }

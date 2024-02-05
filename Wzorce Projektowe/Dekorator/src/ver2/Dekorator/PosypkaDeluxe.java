@@ -1,6 +1,8 @@
-package ver2;
+package ver2.Dekorator;
 
-public class PosypkaDeluxe implements NapójInterfejs{
+import ver2.NapójInterfejs;
+
+public class PosypkaDeluxe implements NapójInterfejs {
     private NapójInterfejs napójInterfejs;
     public PosypkaDeluxe(NapójInterfejs napójInterfejs){
         this.napójInterfejs = napójInterfejs;

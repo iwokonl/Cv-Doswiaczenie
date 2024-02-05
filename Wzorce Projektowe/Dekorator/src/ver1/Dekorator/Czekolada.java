@@ -1,6 +1,9 @@
-package ver1;
+package ver1.Dekorator;
 
-public class Czekolada extends SkładnikDekorator{
+import ver1.Napój;
+import ver1.SkładnikDekorator;
+
+public class Czekolada extends SkładnikDekorator {
     public Czekolada(Napój napój) {
         this.napój = napój;
     }

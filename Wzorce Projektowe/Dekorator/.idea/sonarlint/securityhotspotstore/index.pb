@@ -42,3 +42,17 @@ H
 src/ver2/DeluxeImpl.java,e\5\e59e95e3e5552ebb8be92da09e97c1fab2a9dcce
 K
 src/ver2/PosypkaDeluxe.java,b\2\b21508ab43fe8183e038da7f886c935719d3d7d0
+R
+"src/ver2/Dekorator/Czekolada2.java,f\4\f4903ec17004d759c4f1478f542167cac4536ef8
+U
+%src/ver2/Dekorator/PosypkaDeluxe.java,c\1\c14171d2f0d99e89bdb385966ed586f8d6c1536d
+W
+'src/ver2/ObiektDekorowany/Espresso.java,9\1\91ba2a349dc464804ada30186d2aa67cce94ef99
+U
+%src/ver2/ObiektDekorowany/Deluxe.java,4\e\4e984288ed52fc6564b9d4c377052ffb2771bb30
+X
+(src/ver1/ObiektDekorowany/Espressso.java,7\1\71ddbb08765b8764e9f6ab52c3dd0639fe6f3706
+V
+&src/ver1/ObiektDekorowany/Special.java,f\6\f62a77b84c0df4613dbead7fd07f432742187266
+Q
+!src/ver1/Dekorator/Czekolada.java,5\f\5ffd08b673107b510487c40dfd99155ea68d221a

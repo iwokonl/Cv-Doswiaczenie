@@ -1,5 +1,12 @@
 import ver1.*;
+import ver1.Dekorator.Czekolada;
+import ver1.ObiektDekorowany.Espressso;
+import ver1.ObiektDekorowany.Special;
 import ver2.*;
+import ver2.Dekorator.Czekolada2;
+import ver2.Dekorator.PosypkaDeluxe;
+import ver2.ObiektDekorowany.Deluxe;
+import ver2.ObiektDekorowany.Espresso;
 
 public class Main {
     public static void main(String[] args) {

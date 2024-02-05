@@ -1,6 +1,8 @@
-package ver1;
+package ver1.ObiektDekorowany;
 
-public class Special extends Napój{
+import ver1.Napój;
+
+public class Special extends Napój {
     public Special(){
         ustawOpis("Specjalność firmy");
     }
