@@ -1,0 +1,4 @@
+
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿû¤Ì8ºÏãÔ×1
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ñí´58ºÏãÔ×1
+v	java:S116"ZRename this field "napÃ³jInterfejs" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±Ã¸8»ÏãÔ×1

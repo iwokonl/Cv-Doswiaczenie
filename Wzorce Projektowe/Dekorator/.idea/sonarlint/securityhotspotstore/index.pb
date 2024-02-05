@@ -1,3 +1,44 @@
 
 =
 src/Main.java,9\2\924f089edb4af5ee45c8a9d1129cd28e2b368138
+D
+src/ver1/Napój.java,8\f\8fc6c5417b4148aa459e70b4bfd9f56209c1568b
+P
+ src/ver1/SkładnikDekorator.java,6\4\64b1cefd1d0450ab06701428a2fcfba5ee71fc2c
+G
+src/ver1/Espressso.java,c\e\ceb79464586f5cdb72f00a0681a4dfb4356f7521
+E
+src/ver1/Special.java,c\5\c5f2a9108d447f9c035a608f978c9d35ad6c1ffc
+G
+src/ver1/Czekolada.java,0\3\03019880748f6117d809eeecb3076d06d5cf43be
+H
+src/ver2/Napójable.java,f\2\f25d7641b5ac77dda4dcd660aca915ef66793f29
+U
+%src/ver2/SkładnikiDekoratorable.java,3\1\31db4f6b52d9844ac9a946e4c0dd0c1d97df0bd6
+G
+src/ver2/Czekolada.java,6\5\657cfca3e86da6d6b921f8350ef73b15ea7c8cdc
+G
+src/ver2/Espressso.java,e\f\ef515f057b2ec36526fc30f57ccfa20ff0b7114c
+E
+src/ver2/Special.java,8\f\8f59ca42b8f5feb8af997d597520a7aa063c74a3
+E
+src/ver2/Napój2.java,4\6\465642ee74ad53e2eb831e8f1eb569f504250973
+N
+src/ver2/Napój2interfejs.java,f\6\f64359b239395121b1d69d7a772928d1e0edefde
+Y
+)src/ver2/SkładnikDekoratorInterfejs.java,2\8\2840badf5cd5c9ae445e5ab8aa12cbb7791e5d8f
+F
+src/ver2/Espresso.java,2\a\2a29467b01539b7a36c9f89c37fd717d429f0305
+M
+src/ver2/NapójInterfejs.java,e\9\e9fba84b3a1b25711e86cf7e7236e1e61a5a4e4a
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+H
+src/ver2/Czekolada2.java,8\6\86b0388e759af0937bc64857f3e8f018918ba92f
+D
+src/ver2/Deluxe.java,e\1\e19c0d8da3a9eceb21ee5350f933b8188a3b7dfb
+H
+src/ver2/DeluxeImpl.java,e\5\e59e95e3e5552ebb8be92da09e97c1fab2a9dcce
+K
+src/ver2/PosypkaDeluxe.java,b\2\b21508ab43fe8183e038da7f886c935719d3d7d0
