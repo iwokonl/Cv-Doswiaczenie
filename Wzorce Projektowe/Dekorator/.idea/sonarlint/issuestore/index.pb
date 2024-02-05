@@ -56,3 +56,7 @@ V
 &src/ver1/ObiektDekorowany/Special.java,f\6\f62a77b84c0df4613dbead7fd07f432742187266
 Q
 !src/ver1/Dekorator/Czekolada.java,5\f\5ffd08b673107b510487c40dfd99155ea68d221a
+M
+src/LowerCaseInputStream.java,a\7\a782c97ec6efe8ce1e7cdfeb1a455411791594d9
+<
+src/test.txt,8\6\8697c115c491c5f18f6d658f44b3ee38ebc27cf1
