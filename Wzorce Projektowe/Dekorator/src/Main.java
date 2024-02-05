@@ -46,14 +46,32 @@ public class Main {
 }
 
 /*
-Zasada działania jest taka że mamy jaki typ główny np. napój chcemy zamówić kawę, więc kawa dziedziczy po napoju. Chcemy dodać do kawy czekoladę, więc opakowujemy kawę w czekoladę i tak samo robimy z śmietaną którą
-chcemy też dodać do tej kawy.(Wszystkie te obiekty muszą odzwierciedlać siebie czyli być tego samego typu/dziedziczą po napoju). Jeśli chcemy co kolwiek zrobić to musimy rozpakować tą matripszkę
-podąrzamy od najbardziej zewnętrznej cześci do zewnętrznej. Jeśli chcemy obliczyć koszt to na każdym obiekcie wywołujemy koszt w takiej kolejnoci BitaŚmietana -> Czekolada -> Kawa i natępnie jest
-to wsszystko zwracane w kolejności Kawa -> Czekolada -> Bitamietana w tedy otrzymujemy koszt zakupu tak zrobionej kawy. Podsumowanie: Obiekty dekorujące są tego samego typu co obiekty dekorowane,
-Jeden obiek dekorowany może zostać opakowany w jeden lub więcej dekoratorów. Jeśli dekorator jest takiego samego typu co obiekt dekorowany to możemy przekazać cały taki zawinięty obiekt zamiast wszystkich odzielnie.
+TO DO:
+Przypomnieć sobie działanie pakietu java.io oraz InputStreams
+
+
+Zasada działania jest taka że mamy jaki typ główny np. napój chcemy zamówić kawę, więc kawa dziedziczy po napoju.
+Chcemy dodać do kawy czekoladę, więc opakowujemy kawę w czekoladę i tak samo robimy z śmietaną którą
+chcemy też dodać do tej kawy.(Wszystkie te obiekty muszą odzwierciedlać siebie czyli być tego samego typu/dziedziczą po napoju).
+Jeśli chcemy co kolwiek zrobić to musimy rozpakować tą matripszkę podąrzamy od najbardziej zewnętrznej cześci do zewnętrznej.
+Jeśli chcemy obliczyć koszt to na każdym obiekcie wywołujemy koszt w takiej kolejnoci BitaŚmietana -> Czekolada -> Kawa i natępnie jest
+to wsszystko zwracane w kolejności Kawa -> Czekolada -> Bitamietana w tedy otrzymujemy koszt zakupu tak zrobionej kawy.
+Podsumowanie: Obiekty dekorujące są tego samego typu co obiekty dekorowane, Jeden obiek dekorowany może zostać opakowany w jeden lub więcej dekoratorów.
+Jeśli dekorator jest takiego samego typu co obiekt dekorowany to możemy przekazać cały taki zawinięty obiekt zamiast wszystkich odzielnie.
 Dekorator dodaje swoje własne zachowania przed delegowaniem do obiektu dekorowanego właściwego zadania i(lub) po nim(?). Obiekty mogą być
 dekorowane w dowolnym momencie, czyli możemy je również dekorować dynamicznie podczas działania programu, używając dowolnej liczby
-dekoratorów. W wielkim skrócie dekorator pozwala na dynamiczne dodawanie nowych zachowań do obiektu.
+dekoratorów(Dziedziczenia używamy tylko i wyłącznie aby występowała zgodność typów). W wielkim skrócie dekorator pozwala na dynamiczne dodawanie nowych zachowań do obiektu. BTW pakiet bibliotek java.io
+to zestaw klas dekoratorów dla InputStream. Jest to wzorzec strukturalny, typ wzorca który umożliwia nam składanie obiektów i klas w jeszcze większe obiekty
+zachowując przy tym elastyczność i efktywność struktur.
+
+Zalety:
+- Dodawanie elastyczności do projektów
+- Jeśli stosuje się ten wzorzec jako wzorzec dodatkowy np. do fabryki albo budowniczego większość wad nie obejmujetego wzorca
+Wady:
+- Duża ilość małych klas
+- Większe skomplikowanie projektu
+- Trzeba dobrze przemyśleć czy warto użyć dekorator w projekcie bo robi się duży bałagan w kodzie
+
 Sposób działania:
     Wersja dla klasy abstrakcyjnej:
     - Tworzymy obiekty
@@ -71,8 +89,9 @@ Sposób działania:
 co załatwia nam problem nie tego typu co trzeba
     - Po stworzeniu tego co wyżej typujemy to interfejsem i tworzymy to co chemy opakować
     - Potem opaowujemy to wsadzając jako argument rzecz opakowywaną
- */
 
-/*
-Dziedziczenia używamy tylko i wyłącznie aby występowała zgodność typów
+
+Źródła:
+Rozdział III
+
  */
