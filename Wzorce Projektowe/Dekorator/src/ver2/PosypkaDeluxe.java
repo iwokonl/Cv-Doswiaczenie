@@ -13,6 +13,6 @@ public class PosypkaDeluxe implements NapójInterfejs{
 
     @Override
     public double cena() {
-        return 21.37;
+        return napójInterfejs.cena() + 21.37;
     }
 }

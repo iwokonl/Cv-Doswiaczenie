@@ -12,6 +12,6 @@ public class Czekolada2 implements NapójInterfejs{
 
     @Override
     public double cena() {
-        return napójInterfejs.cena() + 5;
+        return napójInterfejs.cena() + 5.005;
     }
 }

@@ -24,6 +24,13 @@ public class Main {
 
         napójver2 = new Czekolada2(napójver2);
         System.out.println(napójver2.opis() + " " + napójver2.cena());
+        System.out.println();
+//    //////////////////////////////////////////////////////////////////////////////
+
+        NapójInterfejs festNapój = new Deluxe();
+        festNapój = new Czekolada2(festNapój);
+        festNapój = new PosypkaDeluxe(festNapój);
+        System.out.println(festNapój.opis() + " " + festNapój.cena());
     }
 
 
