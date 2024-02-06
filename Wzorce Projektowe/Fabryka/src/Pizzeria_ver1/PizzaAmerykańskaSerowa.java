@@ -5,7 +5,6 @@ public class PizzaAmerykańskaSerowa extends Pizza {
         nazwa= "Amerykańska";
         ciasto = "Grube";
         sos = "Grzybowy";
-
         dodatki.add("Tarty ser tłusty");
     }
 
