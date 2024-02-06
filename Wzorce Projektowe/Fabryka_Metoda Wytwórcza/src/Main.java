@@ -11,7 +11,14 @@ public class Main {
 }
 
 /*
+Wzorzec Metoda wytwórcza/Fabryka bazuje na dodaniu elsastyczności i możliwości późniejszej
+rozbudowy. Przykład powyższy to pizzeria. Można tutaj dodawać dowolną ilość Pizz dla specyficznej pizzerii.
+Polega to na tym że zlecamy tak jakby na początku chęc wykonania Pizzy do Pizzerii(Typ pizzy). następnie pizza
+Zostaje zrobiona przez pizzerie włoską.Pizzeria(Zwraca ty Pizza bo tego chcieliśmy żeby pod jednym
+typem można dawać wiele rodzajów tej samej pizzy) po otrzymaniu pizzy mamy gotowy element na któryn wiemy jak operować.
+Bo zaadoptowaliśmy klasę abtrakcyjne które wymuszają powstanie pewnych motod. Tym samym stworzyliśmy
+bardzo elastyczny program do tworzenia pizz.
 
-
+Wzorzec kreacyjny to mechanizmy tworzenia obiektów, zwiększania elastyczności i ten typ ułatwia ponowne używanie kodu.
 
  */
