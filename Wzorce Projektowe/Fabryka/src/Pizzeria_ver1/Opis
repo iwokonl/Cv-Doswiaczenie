@@ -1,0 +1,7 @@
+Klasy wytwarzające obiekty(logika)
+Pizzeria - fabryka
+Metoda utwórzPizze w klasie WłoskaPizza i AmerykańskaPizza to metody wytwórcze
+
+Klasy produktów(dane)
+Pizza - fabryka produkuje ten produkt ogólny(szkic produktu i jego właściwości)
+Włoskaserowa, AnerykańskaSerowa - produkt rzeczywiste(używanie tych właściwości)
