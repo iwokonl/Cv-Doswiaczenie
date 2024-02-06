@@ -17,7 +17,9 @@ Polega to na tym że zlecamy tak jakby na początku chęc wykonania Pizzy do Piz
 Zostaje zrobiona przez pizzerie włoską.Pizzeria(Zwraca ty Pizza bo tego chcieliśmy żeby pod jednym
 typem można dawać wiele rodzajów tej samej pizzy) po otrzymaniu pizzy mamy gotowy element na któryn wiemy jak operować.
 Bo zaadoptowaliśmy klasę abtrakcyjne które wymuszają powstanie pewnych motod. Tym samym stworzyliśmy
-bardzo elastyczny program do tworzenia pizz.
+bardzo elastyczny program do tworzenia pizz. Pamiętamy przy tym że chcemy do klasy abstrakcyjnej lub interfejsu umieścić rzeczy zmienne
+(chcemy odizolować zmienne od rzeczy stałych(Klas produktów)). Po stworzeniu Klas wytwórców(Fabryki). Nie naruszamy zasad SOLID czyli pojedyńczej odpowiedzialności
+obiektu.
 
 Wzorzec kreacyjny to mechanizmy tworzenia obiektów, zwiększania elastyczności i ten typ ułatwia ponowne używanie kodu.
 Źródła:

@@ -15,3 +15,20 @@ V
 &src/Pizzeria_ver1/PizzeriaWłoska.java,0\a\0a095b126a7f0c5ef9eebfc1ba64d2442e92993a
 F
 src/Pizzeria_ver1/Opis,5\4\54736ac377ee8fe040d3d1b27a1d6d0ce3a72cab
+>
+src/Main2.java,f\e\fefd934fe213e7d7ae1fd8cb503613aff2236a7e
+F
+src/ver2/Pizzeria.java,3\0\305d01ca33f5edb93c3f8ccd29054e6e0292f183
+R
+"src/ver2/PizzeriaAmerykańska.java,a\5\a55fd9ac92949ed410f9a6774ea6de99051e5c5f
+M
+src/ver2/PizzeriaWłoska.java,7\f\7fe9ad8b419335e98eee85b4b5cf3ce4f9288a8b
+C
+src/ver2/Pizza.java,f\6\f6d152c76b068e095326a14ec7e5b358d462daff
+P
+ src/ver2/PizzaWłoskaSerowa.java,6\f\6f110882d3a1354740789abaa5befa9283df5c29
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+U
+%src/ver2/PizzaAmerykańskaSerowa.java,e\c\ec05cbbd8e39d3fe3ceaea4650a2b893fa8da026
