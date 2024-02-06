@@ -20,5 +20,8 @@ Bo zaadoptowaliśmy klasę abtrakcyjne które wymuszają powstanie pewnych motod
 bardzo elastyczny program do tworzenia pizz.
 
 Wzorzec kreacyjny to mechanizmy tworzenia obiektów, zwiększania elastyczności i ten typ ułatwia ponowne używanie kodu.
-
+Źródła:
+https://refactoring.guru/pl/design-patterns/factory-method
+Rozdział 4 pierwsza część
+https://www.youtube.com/watch?v=EdFq_JIThqM
  */
