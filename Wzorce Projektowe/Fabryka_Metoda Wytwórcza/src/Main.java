@@ -30,7 +30,8 @@ Zasady:
 - OCP(open/close) jedna z kolejnych zasad SOLID która mówi o tym że element oprogramowania powinien być otwarty na rozbudowę,
 ale zamknięty na modyfikację. Oznacza to, że powinniśmy być w stanie dodawać nowe funkcjonalności bez zmieniania istniejącego kodu.
 To znaczy: trochę skalowalności brak zmian w milionach miejsc np. robisz interfejs o cenie do pizzy i robisz kilka klass pizz
-Margherita, Pepperoni i z ananasem. Jeśli zrobisz to na zasadzie jak w pakiecie FolderPokazowy
+Margherita, Pepperoni i z ananasem. Jak coś z mienisz bez OCP to zmieniasz w milionie miejsc a jak masz OPC to dodajesz sobie klase
+ zgodnie z interfejsem i essa. Przykład znajduje się w FoladerPokazowy.
 
 
 Wzorzec kreacyjny to mechanizmy tworzenia obiektów, zwiększania elastyczności i ten typ ułatwia ponowne używanie kodu.
