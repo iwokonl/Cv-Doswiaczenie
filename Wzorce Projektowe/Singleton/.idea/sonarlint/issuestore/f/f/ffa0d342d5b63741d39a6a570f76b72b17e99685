@@ -1,0 +1,8 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½ŸŞ8û³¶ÂØ1
+T
+java:S2589"7Remove this expression which always evaluates to "true"(ğ¾ˆŠ8¸–·ÂØ1
+t
+java:S3077"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(·ôßú8ı³¶ÂØ1
+E
+java:S1068"(Remove this unused "data" private field.(àÁá´8ÿ³¶ÂØ1

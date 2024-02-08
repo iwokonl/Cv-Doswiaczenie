@@ -2,8 +2,8 @@ package Pizzeria_ver1;
 
 public abstract class Pizzeria {
     public Pizza zamówPizze(String type){
-
-    Pizza pizza = utwórzPizze(type);
+    Pizza pizza = null;
+    pizza = utwórzPizze(type);
     pizza.przygotowanie();
     pizza.pieczenie();
     pizza.krojenie();
