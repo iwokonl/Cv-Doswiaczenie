@@ -5,5 +5,7 @@ public class main {
         Pizza małż = new MałżPizza();
         PizzaOrder pizzaOrder = new PizzaOrder();
         System.out.println(pizzaOrder.pizzaPrice(małż));
+        Pizza vege = new VegePizza();
+        System.out.println(pizzaOrder.pizzaPrice(vege));
     }
 }

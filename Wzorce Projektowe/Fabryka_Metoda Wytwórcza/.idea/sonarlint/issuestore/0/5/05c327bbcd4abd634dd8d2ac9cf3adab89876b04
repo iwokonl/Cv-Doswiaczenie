@@ -1,7 +1,8 @@
 
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦İŒìøÿÿÿÿ8Ø×ğºØ1
-i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(·š†‡8Ù×ğºØ1
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„›·¸øÿÿÿÿ8Ù×ğºØ1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦İŒìøÿÿÿÿ8»ûíÈØ1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(·š†‡8»ûíÈØ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„›·¸øÿÿÿÿ8¼ûíÈØ1
 i
-java:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(Çµí‘8Ù×ğºØ1
-L	java:S106"+Replace this use of System.out by a logger.(›ãÆ—ÿÿÿÿÿ8Ü×ğºØ1
+java:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(Çµí‘8¼ûíÈØ1
+L	java:S106"+Replace this use of System.out by a logger.(›ãÆ—ÿÿÿÿÿ8¿ûíÈØ1
+G	java:S106	"+Replace this use of System.out by a logger.(¼áÑ™8¿ûíÈØ1
