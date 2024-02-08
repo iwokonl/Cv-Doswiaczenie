@@ -32,3 +32,17 @@ P
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 U
 %src/ver2/PizzaAmerykańskaSerowa.java,e\c\ec05cbbd8e39d3fe3ceaea4650a2b893fa8da026
+U
+%src/FolderPokazowy/OCP/CenaPizzy.java,a\c\acc89a943799198e00a405bb608e58d018febff6
+Y
+)src/FolderPokazowy/OCP/PeperoniPizza.java,f\f\ffc00c00f3eecd09a10c27eb95541fd242fea153
+V
+&src/FolderPokazowy/OCP/PizzaOrder.java,2\1\21992bc21284c832ad61f974a8240b0f5746382e
+Q
+!src/FolderPokazowy/OCP/Pizza.java,3\a\3aada7934e7639e9b60d720fc76450d9e27c967c
+W
+'src/FolderPokazowy/OCP/MałżPizza.java,d\b\db19a53d31b0736629185e444a076875f0c1d168
+P
+ src/FolderPokazowy/OCP/main.java,0\5\05c327bbcd4abd634dd8d2ac9cf3adab89876b04
+Y
+)src/FolderPokazowy/NieOCP/PizzaOrder.java,2\7\274a09f38c33ed349753fe277c050ca3907ea1de
