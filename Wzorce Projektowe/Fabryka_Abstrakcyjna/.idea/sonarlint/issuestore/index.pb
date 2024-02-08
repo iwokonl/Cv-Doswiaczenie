@@ -118,3 +118,33 @@ j
 :src/FabrykaAbstrakcyjna/Składniki/Warzywa/BrakWarzyw.java,8\f\8fc1b2e9873ff83b0c5d79f84321fc195cbd7298
 m
 =src/FabrykaAbstrakcyjna/Składniki/Wędliny/BrakWędliny.java,b\f\bf81b03d9e3b4692c06ea1701e932597078c6065
+>
+src/DIP/a.java,0\5\05afe798135b29459ddb92dcef6b1458a49d3518
+@
+src/DIP/asd.java,6\9\695a5565e5a9358ef32a8bbf0bb9b0d2029667da
+N
+src/DIP/PizzaOrderService.java,3\9\3988acf3a174c563bfb63283ad62ea8cb2338141
+B
+src/DIP/Pizza.java,6\4\6414983facb117f31e0b58f72f3d5664c9fc1019
+Q
+!src/NieDIP/PizzaOrderService.java,e\4\e4244d6f7085dbbeb3b8e2a22e14c2bb6f73af63
+O
+src/NieDIP/MargheritaPizza.java,0\4\04d5a21c0ce2bf6a54933fb54bb4856218c61d50
+^
+.src/PrzykładDIP/NieDIP/PizzaOrderService.java,b\a\ba20b5ea57ef652e38d6a21ac8a5a2bdab51e428
+\
+,src/PrzykładDIP/NieDIP/MargheritaPizza.java,e\7\e74d298d6ffcb33ec807e22202e008580c33c054
+V
+&src/PrzykładDIP/NieDIP/DIP/Pizza.java,7\2\72142d2a1ee21a23dfad47ca1deee77d72459a71
+b
+2src/PrzykładDIP/NieDIP/DIP/PizzaOrderService.java,2\a\2a4629ec66764e8d875287561de5f293b301c5a3
+`
+0src/PrzykładDIP/NieDIP/DIP/MargheritaPizza.java,c\e\cedaa80da03e8d4271fe4a0489ac74bdc05b266a
+L
+src/DIP/MargheritaPizza.java,4\f\4fcfd5e6a284db737eb87bca1044dd3b4a6b8739
+O
+src/PrzykładDIP/DIP/Pizza.java,0\c\0ce715756903ed9038e0d18a63dc9f674ea2b3d3
+[
++src/PrzykładDIP/DIP/PizzaOrderService.java,9\c\9cfaabd162c17cf38752bb7cf4ca0c08cfc76bb6
+Y
+)src/PrzykładDIP/DIP/MargheritaPizza.java,4\b\4b7ef2dff1137f28e4f2e130e37691b487700d01

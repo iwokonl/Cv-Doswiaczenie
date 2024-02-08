@@ -10,7 +10,7 @@ public class Main {
     }
 }
 /*
-DIP - Nakłada nacisk na tworzenie składników abstrakcyjnych. Mówi że składniki wysokiego poziomu nie powinny być uzależnione
+PrzykładDIP.DIP - Nakłada nacisk na tworzenie składników abstrakcyjnych. Mówi że składniki wysokiego poziomu nie powinny być uzależnione
 od składników niskiego poziomu. Znaczy to co innego że abstrakcja tworzy pewną bierierę miedzy tymi składnikami i ma za zadanie
 odzielać poziomy.
 Reguły:
@@ -21,7 +21,7 @@ Reguły:
 
 
 Wzorzec Fabryka abstrakcyjna jest "przedłużeniem" wzorca metoda wytwórcza/Fabryka. Zawiara się w nim jedna z zasad SOLID
-(DIP - Dependency Inversion Principle). Definicja wzorca to dostarczanie interfejsu do tworzenia całych rodzin powiązanych
+(PrzykładDIP.DIP - Dependency Inversion Principle). Definicja wzorca to dostarczanie interfejsu do tworzenia całych rodzin powiązanych
 ze sobą lub zależnych od siebie obiektów bez konieczności określania ich klasy rzeczywistej. Wzorzec wymusza grupowanie
 ze sobą powiązanych produktów.
  */
