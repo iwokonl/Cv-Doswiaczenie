@@ -1,0 +1,8 @@
+
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È§Äö8¡ïˆèØ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¾ÀÄ²ıÿÿÿÿ8¢ïˆèØ1
+}	java:S116#"aRename this field "uÅ¼ytkownikRejestracja" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë¦Èö8¥ïˆèØ1
+O
+java:S2175"2A "List<Polecenie>" cannot contain a "Obserwator".(¶í¤û8¿èØ1
+W
+java:S1068#":Remove this unused "uÅ¼ytkownikRejestracja" private field.(Ë¦Èö8ªïˆèØ1

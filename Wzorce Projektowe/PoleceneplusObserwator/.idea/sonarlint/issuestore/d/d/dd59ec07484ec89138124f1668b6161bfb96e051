@@ -1,0 +1,15 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıØôüøÿÿÿÿ8øâªéØ1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ê¿áô8ùâªéØ1
+7
+java:S1220""Move this file to a named package.8ùâªéØ1
+_
+java:S1854"=Remove this useless assignment to local variable "startTime".(¬¶Ø¬ùÿÿÿÿ8éãÄéØ1
+]
+java:S1854";Remove this useless assignment to local variable "endTime".(Äæï¦ıÿÿÿÿ8êãÄéØ1
+P
+java:S1481".Remove this unused "startTime" local variable.(¬¶Ø¬ùÿÿÿÿ8ìãÄéØ1
+N
+java:S1481",Remove this unused "endTime" local variable.(Äæï¦ıÿÿÿÿ8íãÄéØ1
+N
+java:S1128",Remove this unused import 'java.util.Timer'.(†£ñáÿÿÿÿÿ8²ª°éØ1
