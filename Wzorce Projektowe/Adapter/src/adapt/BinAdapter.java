@@ -15,7 +15,11 @@ public class BinAdapter implements Hex{
     public void ustawHex(String bin) {
 
     }
-
+    public Hex converted(){
+        HexReal hexReal = new HexReal();
+        hexReal.ustawHex(Integer.toHexString(Integer.parseInt(bin.getBin(),2)));
+        return hexReal;
+    }
     @Override
     public String getHex() {
 
