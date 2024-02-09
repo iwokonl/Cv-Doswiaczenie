@@ -1,0 +1,4 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ÁØ—ıÿÿÿÿ8ä‡ÚòØ1
+i	java:S116"NRename this field "Hex" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éı¦8ç‡ÚòØ1
+G	java:S106"+Replace this use of System.out by a logger.(Ì„Œù8é‡ÚòØ1
