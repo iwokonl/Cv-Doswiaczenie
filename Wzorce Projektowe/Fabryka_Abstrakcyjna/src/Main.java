@@ -1,6 +1,6 @@
-import FabrykaAbstrakcyjna.Pizza.Pizza;
-import FabrykaAbstrakcyjna.Pizzerie.Pizzeria;
-import FabrykaAbstrakcyjna.Pizzerie.WłoskaPizzeria;
+import FabrykaAbstrakcyjna.Pizzae.Pizza.Pizza;
+import FabrykaAbstrakcyjna.Pizzae.Pizzerie.Pizzeria;
+import FabrykaAbstrakcyjna.Pizzae.Pizzerie.WłoskaPizzeria;
 
 public class Main {
     public static void main(String[] args) {
