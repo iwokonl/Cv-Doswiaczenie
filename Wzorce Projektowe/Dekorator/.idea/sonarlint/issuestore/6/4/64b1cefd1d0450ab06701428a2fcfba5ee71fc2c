@@ -1,0 +1,6 @@
+
+t
+java:S1104"RMake napÃ³j a static final constant or non-public and provide accessors if needed.(íùıÿÿÿÿ8Ô÷¥Ø×1
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(§ğÊòùÿÿÿÿ8—†šÓ×1
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õË·š
+r	java:S116"QRename this field "napÃ³j" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íùıÿÿÿÿ8ÎÛšÓ×1
