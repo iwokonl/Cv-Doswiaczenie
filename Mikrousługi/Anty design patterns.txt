@@ -34,3 +34,8 @@ Brama API to narzędzie do zarządzania API, które znajduje się między klient
 
 Stanie się to kluczowe dla wyżej wymienionych niefunkcjonalnych kwestii i pozwoli uniknąć ponownego projektowania ich dla każdej usługi.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Celem mikrousług jest rozwiązanie trzech najczęstszych wyzwań, czyli poprawa doświadczenia klienta, elastyczność wobec nowych wymagań i redukcja kosztów poprzez dostarczanie funkcji biznesowych jako drobnoziarnistych usług.
+
+Robiąc to, należy jednak unikać pułapki wyżej wymienionych anty-wzorców, które sprawiają, że mikrousługi są uciążliwe dla wymagań związanych z rozwojem, dostarczaniem i zarządzaniem.
