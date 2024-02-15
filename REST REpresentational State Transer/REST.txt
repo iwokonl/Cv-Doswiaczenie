@@ -1,0 +1,39 @@
+Klasyfikacja RESTfull
+- Zarządza wszystkimi żadaniami HTTP
+- Zapewnia bezstanową komunikację klient-serwer
+- Jednolity interfejs między komponentami
+
+Zapytania REST
+- Create = POST
+- READ = GET
+- Update = PUT
+- Delete = DELETE
+
+
+API Gateway
+API Gateway to narzędzie do zarządzania API, które znajduje się między klientem a usługami Backend.
+Chroni ona przed nie właściwym użyciem np. blokuje dużą ilość zapytań które są wywoływane w krótkim czasie 
+Analizuje użycie API
+Zarabianie na API
+
+Zalety:
+- Izalacja klientów od sposobu w jaki aplikacja jest podzielona na mikrousługi(Upraszcza użytkowanie API)
+- Optymalne API dla każdego klienta 
+- Zmniejsza liczbę rządań w obie strony
+
+Wady:
+- Złożoność
+- Wydłuża czas odpowiedzi
+- Jeśli będzie w niej błąd może się wszystko rozsypać
+
+Produkty:
+Open-Source:
+	- Kong Gateway
+	- Apache APISIX
+	- Tyk
+	- Glo
+Komercyjne:
+	- IBM DataPower Gatewa
+	- Google apigee/Cloud endpoint
+	- Microsoft Azure API Gateway
+	- Amazon API Gateway
