@@ -1,4 +1,21 @@
 SPA - Single-page application
+- Użytkownik wchodzi przez jeden interfejs, który nigdy nie ładuje ponownie strony docelowej.
+- Zbudowane przy użyciu mixu HTML, CSS i JS aplikacje te reagują na dane wejściowe użytkownika przez dynamiczne wywołanie backendu opartego na REST API. W ten sposób powstają aktualizacje na ekranie a nie przekierowanie na zupełnie nową stronę.
+- Upraszcza obsługę Frontendu.
+- Zwiększa odpowiedzialność backendu.
+	Minusy:
+	- Zapewnia słabe wyniki w różnych aspektach użytkowania aplikacji jeśli używa się wersji na aplikacje mobilne i internetowe(Ogólnego przeznaczenia).
 BFF - Backend for Frontend 
-Strangler
+(Zapewnia backend dla typowego gatunku urządzeń(PC, mobile, Tablet itd.)
+- Zapewnia doskonałe wsparcie w porównaniu do ogólnego backendu
+- Wstawia warstwe pomiędzy użytkownikiem a zasoboami które wykorzystuje użytkownik.
+- Pozwala dostosować aplikacje na użądzenia z którego się korzysta(Inny rozmiar ekranu na PC/mobile).
+- Pozwala tworzyć i obsługiwać jeden gatunek Backendu na interfejs użytkownika przy użyciu najepszych opcji dla tego 
+- Każdy backend to mikroserwis
+interfejsu zamiast obsługiwać jeden ogólny Backend.
+	Minusy:
+	- Może wypłynąć na wydajność Frontendu
+Strangler(Wzór dusiciela - BTW tak to przetłumaczyli dlatego że nazwa wzieła się od zjawisko winorośli która dusi drzewo)
+- Pomocny w refaktoryzacji monolitycznej aplikacji.
+- 
 Service discovery
