@@ -1,0 +1,4 @@
+SPA - Single-page application
+BFF - Backend for Frontend 
+Strangler
+Service discovery

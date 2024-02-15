@@ -5,97 +5,232 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c80d36e-9f54-4bb2-9996-0a90137e1776" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Fabryka_Metoda Wytwórcza/src/FolderPokazowy/OCP/VegePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Polecenie/Pilot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Polecenie/Polecenie/PolecenieWywołajŚwiatło.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Polecenie/Polecenie/Poleceniee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Polecenie/Światło.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dekorator/.idea/sonarlint/issuestore/8/f/8fc6c5417b4148aa459e70b4bfd9f56209c1568b" beforeDir="false" afterPath="$PROJECT_DIR$/../Dekorator/.idea/sonarlint/issuestore/8/f/8fc6c5417b4148aa459e70b4bfd9f56209c1568b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dekorator/src/Notifier/FB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dekorator/src/Notifier/FB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/0/4/04d5a21c0ce2bf6a54933fb54bb4856218c61d50" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/0/5/05afe798135b29459ddb92dcef6b1458a49d3518" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/0/c/0ce3c238cc52f9a9571348386d8a80e26a8e0e45" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/1/3/13a0d9b24f0514cb205df4717fff8a0262c4a355" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/1/b/1b176dc73962aeab521434ba220ce411e0ce7f06" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/2/1/21456addd5e1cba65291722615c4965ee67206bd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/2/4/24e88bfa12f50985384c14af0a159c473806f2be" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/2/a/2a4629ec66764e8d875287561de5f293b301c5a3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/3/0/30e282c028313306576675941a7b1affa504be68" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/3/9/3988acf3a174c563bfb63283ad62ea8cb2338141" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/4/f/4fcfd5e6a284db737eb87bca1044dd3b4a6b8739" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/5/9/59364594fcee23158b3373e33d5391e6b0f50575" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/6/4/6414983facb117f31e0b58f72f3d5664c9fc1019" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/6/9/695a5565e5a9358ef32a8bbf0bb9b0d2029667da" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/7/2/72142d2a1ee21a23dfad47ca1deee77d72459a71" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/7/7/77db4792feb0163c618c43abe03dd795ed13734d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/7/c/7ce9819f1fb2085f9482737066184097b7985e6b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/7/d/7da5788aedfffb73438cc1dc0b882d3a7834c894" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/7/e/7ef9d518ce1ecc281cf18a6271993a27c7ae9b0f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/7/f/7f739506c478d130ace7aec38c9dcc6a0e99125e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/9/4/94680c7ed13fae4f1e2a59a7f83014c44ad1ce0d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/9/c/9c0144dacafe744255541656bd42c6765e908e8e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/b/3/b3b689503d499d1efabaf8c5e13bb2b3fa2c3958" beforeDir="false" afterPath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/b/3/b3b689503d499d1efabaf8c5e13bb2b3fa2c3958" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/c/2/c2f3d7a26b0c88f31f556bae3ca8dc40d5eacb92" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/c/4/c4cd84f4fd6664d2b538dcfdcf63b22174dbb132" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/c/a/ca2c64f546d030516902806ba25953c863be4767" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/c/b/cb6861920f0d269a28d4e6e0d2e9e835e3a1b96d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/c/e/cedaa80da03e8d4271fe4a0489ac74bdc05b266a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/c/f/cf83184784749872018c197179c9102010906fed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/d/8/d825b12a4fb72b2f17b847ff6b01a1d403fc3b01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/d/e/dea8e3f8efd1d72b39e42b43976b4af0da65b9a5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/e/4/e4244d6f7085dbbeb3b8e2a22e14c2bb6f73af63" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/e/5/e57bbd802cf9ab12139623bfb18ff15999d55964" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/f/3/f30a1e494405002c0af930be6ebee1abd0110887" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/f/5/f5507cfb7137e76b4cf97160e07c7f9e0ca744d5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/f/5/f57a6380b8ce09f97d6ab6c4a500e93163fe4551" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/f/6/f6a18e0d2eb1d611a623ab5453cfbcf2b4f44bd8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/f/f/ff8f1d722b0b3de4bbaeacc1b157f7cf2ce7ed8c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/5/a/5a917150fd4b97c3ce99e6876e12f149bf8b55c4" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/5/a/5a917150fd4b97c3ce99e6876e12f149bf8b55c4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Fabryki/FabrykaSkładnikówPizzy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Fabryki/WłoskaFabrykaSkładnikówPizzy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Pizza/Pizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Pizza/Serowa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Pizza/VegePizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Pizzerie/Pizzeria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Pizzerie/WłoskaPizzeria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Składniki/Ciasto/BrakCiasta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Składniki/Ciasto/Ciasto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Składniki/Ciasto/Cienkie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Składniki/Ciasto/Grube.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Składniki/Małże/BrakMałży.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Składniki/Małże/Małże.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Składniki/Małże/MałżeMrożone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Składniki/Małże/MałżeŚwieże.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Składniki/Ser/BrakSera.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Składniki/Ser/Ser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Składniki/Ser/SerMozzarella.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Składniki/Ser/SerReggiano.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Składniki/Sos/BrakSosu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Składniki/Sos/Sos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Składniki/Sos/SosMarinara.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Składniki/Sos/SosPomidorowy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Składniki/Warzywa/BrakWarzyw.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Składniki/Warzywa/Papryka.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Składniki/Warzywa/Pomidor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Składniki/Warzywa/Warzywa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Składniki/Wędliny/BrakWędliny.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Składniki/Wędliny/Pepperoni.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/FabrykaAbstrakcyjna/Składniki/Wędliny/Wędliny.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Wzorce Projektowe/Fabryka_Abstrakcyjna/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/0/0/0066b08d8d113d1d6fb0f5b47806c160db801205" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/0/1/01cb8e81b2a73177b8191e81c676142b29463d03" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/0/4/04c5eccb533b23d81a38ab2d60a174c57bbd3e8b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/0/7/077b32e08a8ca667d051f9c9246c2f61b50029fe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/0/f/0f469abca70b76aa961d5e5140c7255b5413fff8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/1/0/1032fa9c12af2047e25df3660b4999d38dfe6f42" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/1/2/129bcfa37187dabea3e87b359c7e258bbc325999" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/1/4/1429d3f22bebacafcfd58ed0bc4731069cb84e97" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/1/7/1796630fe5926dae9b7e0f7ea9124f19d84b85f2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/1/c/1c3060bd502aa66a280cb9b2eef0d8303fc1e490" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/1/f/1f280c0c6850d7d736983eab3d8f4fc8e2ad095d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/1/f/1fc2ed2cc4ecfdb56728742f13f4f8bb9115f013" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/2/2/225d55c7633608ba68c0073e1173c96957261526" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/2/3/2348939d06329fc572b7012c3212d9dc2952275f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/2/4/247d45420c41a53388b7520cfe942d7e6bfc052a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/2/4/24e9f32ac29c669b5fb5691acf2eead97060f137" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/2/f/2fb77fa2ca397442302f41af761ef920978ccaff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/3/2/32d2fca67676291bf5957ebcb7717870e9723643" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/3/3/33c14ff4f42e0a862d934f06f41bf2726739a7f3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/3/5/35f3c30790fb574002c63b634b495a3126bc5a76" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/3/7/371cf858df7fa159ad11becc7ea18a1c456f06ed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/3/8/388b125a3138a21c8146c0a743975526e4909c17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/3/8/389de6f45676ea65aea37a4c1198f79f76eaea72" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/3/a/3a73f52015755149fa92f980a1a7baaa29bf787d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/3/f/3f6b4334dfdc0076451fa49ec91357cc0316d721" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/3/f/3faeea896b4943d5f776881e2c47ad2598b397da" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/4/6/46831c1b871a817d9e6396ebf301683b54475095" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/4/7/470e6a031f5449e09b4935046c59591dd9e28840" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/4/a/4ab0571bac0cee39e7ba8adb3ea8a4221ffd10e6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/4/a/4ae3168e2ff6b7ac7e9020242220310802c96ea4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/4/b/4bdb073d47ce3cd7dc0c7933a1d7e85b111b0116" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/4/e/4eb5f1b95a3e82006251386882e8a3955006d1ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/5/0/50c724633848d8522ec2686383f8806eab46eaf0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/5/2/52e82b0856a107e71558ef785c5d2a61cb8f578a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/5/3/53b73ee34332ee6f44d1fe6cd35143de52cf32c1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/5/9/59f5f9a3f0c363d937e2ea0ab5301cd5d2387189" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/5/a/5a917150fd4b97c3ce99e6876e12f149bf8b55c4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/5/d/5dcf39c7e9ad4cb0aaa712d4517c7af01068383f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/5/e/5ebd7ca32f73513b501511e8da9c91b56937c5cf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/6/4/640975aa66c10f3afeaf22c97907f18135e1484b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/6/5/6584938bc371a0065d2033ffd40afbf03452ffbd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/6/9/6916191438cee8aa2f959ad97d7f8b1fb38e9830" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/7/3/730c37e11ff574b8f4a2e0cc938e5cc06fc77342" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/7/3/731b13cfc853bd3c3e516ca9d608816ee4676eb7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/7/5/75b9c3eb3c040b30eafd0bed2a2df95e0346f94d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/7/7/776de9c58c937ea4310d035294732bd1095c4c41" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/7/8/7867d021afa67429e4be397c36703774af300954" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/7/b/7b647c67f9fa3dc778fc21431e4877ad8add0fae" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/7/b/7ba5a539e6953e7e5958887d494b609e9a2c3434" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/7/c/7c263fc8d853ae0d2331b21428609ceb51042832" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/7/c/7c84481416ee661afca21c029067ea9061c02934" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/7/c/7caa22c089ca4bd9d1caeb4fe85055d7ce098c5c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/7/f/7fd9ca40d0c5d24d39cfe1694cf02c19dc35c029" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/8/4/8449dad65b16acfcc111a3eb90523c0bd5d5eb71" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/8/a/8a4943e4b7df85b162a81523000648cb534b4fe9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/8/f/8fc1b2e9873ff83b0c5d79f84321fc195cbd7298" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/9/a/9a9d9b7bcb70ffbfc8acc51ef64080682b13fc61" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/9/b/9b328c0dea6cd765741b1c43f1dd330ad72cfa2c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/9/c/9cfe0c115d2b5df42e3ab28aa340fa9e141761a7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/9/d/9d3479d06d654b78a65b8cfe5f51eb2da76d5013" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/9/e/9e4510b55dec2c369a2285d0b20554cd2bb69cc0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/b/3/b3310aa6ee4d3aaeda26de0827644819af97a5e1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/b/3/b3a346495702bcd4f4d35c6382630fc83ab0f048" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/b/3/b3aa69dfa31005c6da924f0126047f60797c9f25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/b/3/b3b689503d499d1efabaf8c5e13bb2b3fa2c3958" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/b/8/b8ebc0ca2e4ed5f4d705af0890c8f32352a2412e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/b/c/bc689d58ea1c089269cac59ce926fe1c782235c6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/b/f/bf3ebbc32415042e2436519c971eded9dfc5c2ba" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/b/f/bf81b03d9e3b4692c06ea1701e932597078c6065" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/b/f/bfe339a11f4ec97ddfeefbf27728452215aa0309" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/c/0/c0ccfcfe4488b95ebe32a0e8443f8a4a5f388fd3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/c/1/c1e267c57a67830d16de9cddebf3825f2d85668f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/c/4/c4bfb79f2165900f801766b8dd2bda7084bdb650" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/c/5/c5fa4ad412459987df612f15f5701d4aa8116478" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/c/8/c803c2ab85799dfb2882306794c8c585e91eee4b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/c/8/c8f5a8d6b91344fe53f703c548a7d412a74e2211" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/c/a/ca83ec6ee7464964fd0957da223d4a3d33f38f74" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/c/b/cb93f8a4a4fa01efa05f4f16c771c69e0a2deae7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/c/c/ccb3112eb3b2cc7044c2228efdf92451de0d5e70" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/d/1/d1bc30c2a4c797f0d121e343d605616a921f1946" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/d/3/d339adba1a9c2dd9384f66f23e8dd343c6988d7f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/d/3/d383a0c34a263ce3a8c43bdb36ac785022b20fd2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/d/8/d8a69fdb8581ed95861ed847c200f65277befd53" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/d/e/de3348d0063bd836b656851d9de9159d425166b3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/d/e/ded48335e6a0d4c2db99c8268c88990c60b9cf77" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/e/0/e096c20d4aa486af0c1c00fdeffa1e1bbb3af16b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/e/7/e775a5c9618f1bc39862a001e9833dd29b1af156" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/e/b/eb9eba82238b668bcb0e245d31edf0c8ae619e5a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/e/f/ef4ca3597189d69eab708a2d36566cd614d3bbfb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/f/5/f5c18f3c438c992b255ecba3fb0a98926e845e7b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/f/9/f90adf9de555417e059a6fc39fbc0d7c6cf4635d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/f/a/fa0597217e046ac2723540023316891eb2185da6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/f/d/fdc0c5109ace5182def92397cc34b5a0a5c714aa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/f/d/fdd68db71f7f00b79193efe26e18629f24d55b50" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/0/4/04d5a21c0ce2bf6a54933fb54bb4856218c61d50" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/0/5/05afe798135b29459ddb92dcef6b1458a49d3518" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/0/c/0ce3c238cc52f9a9571348386d8a80e26a8e0e45" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/1/3/13a0d9b24f0514cb205df4717fff8a0262c4a355" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/1/b/1b176dc73962aeab521434ba220ce411e0ce7f06" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/2/1/21456addd5e1cba65291722615c4965ee67206bd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/2/4/24e88bfa12f50985384c14af0a159c473806f2be" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/2/a/2a4629ec66764e8d875287561de5f293b301c5a3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/3/0/30e282c028313306576675941a7b1affa504be68" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/3/9/3988acf3a174c563bfb63283ad62ea8cb2338141" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/4/f/4fcfd5e6a284db737eb87bca1044dd3b4a6b8739" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/5/9/59364594fcee23158b3373e33d5391e6b0f50575" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/6/4/6414983facb117f31e0b58f72f3d5664c9fc1019" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/6/9/695a5565e5a9358ef32a8bbf0bb9b0d2029667da" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/7/2/72142d2a1ee21a23dfad47ca1deee77d72459a71" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/7/7/77db4792feb0163c618c43abe03dd795ed13734d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/7/c/7ce9819f1fb2085f9482737066184097b7985e6b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/7/d/7da5788aedfffb73438cc1dc0b882d3a7834c894" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/7/e/7ef9d518ce1ecc281cf18a6271993a27c7ae9b0f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/7/f/7f739506c478d130ace7aec38c9dcc6a0e99125e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/9/4/94680c7ed13fae4f1e2a59a7f83014c44ad1ce0d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/9/c/9c0144dacafe744255541656bd42c6765e908e8e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/c/2/c2f3d7a26b0c88f31f556bae3ca8dc40d5eacb92" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/c/4/c4cd84f4fd6664d2b538dcfdcf63b22174dbb132" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/c/a/ca2c64f546d030516902806ba25953c863be4767" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/c/b/cb6861920f0d269a28d4e6e0d2e9e835e3a1b96d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/c/e/cedaa80da03e8d4271fe4a0489ac74bdc05b266a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/c/f/cf83184784749872018c197179c9102010906fed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/d/8/d825b12a4fb72b2f17b847ff6b01a1d403fc3b01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/d/e/dea8e3f8efd1d72b39e42b43976b4af0da65b9a5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/e/4/e4244d6f7085dbbeb3b8e2a22e14c2bb6f73af63" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/e/5/e57bbd802cf9ab12139623bfb18ff15999d55964" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/f/3/f30a1e494405002c0af930be6ebee1abd0110887" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/f/5/f5507cfb7137e76b4cf97160e07c7f9e0ca744d5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/f/5/f57a6380b8ce09f97d6ab6c4a500e93163fe4551" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/f/6/f6a18e0d2eb1d611a623ab5453cfbcf2b4f44bd8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/f/f/ff8f1d722b0b3de4bbaeacc1b157f7cf2ce7ed8c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/0/0/0066b08d8d113d1d6fb0f5b47806c160db801205" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/0/1/01cb8e81b2a73177b8191e81c676142b29463d03" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/0/4/04c5eccb533b23d81a38ab2d60a174c57bbd3e8b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/0/7/077b32e08a8ca667d051f9c9246c2f61b50029fe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/0/f/0f469abca70b76aa961d5e5140c7255b5413fff8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/1/0/1032fa9c12af2047e25df3660b4999d38dfe6f42" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/1/2/129bcfa37187dabea3e87b359c7e258bbc325999" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/1/4/1429d3f22bebacafcfd58ed0bc4731069cb84e97" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/1/7/1796630fe5926dae9b7e0f7ea9124f19d84b85f2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/1/c/1c3060bd502aa66a280cb9b2eef0d8303fc1e490" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/1/f/1f280c0c6850d7d736983eab3d8f4fc8e2ad095d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/1/f/1fc2ed2cc4ecfdb56728742f13f4f8bb9115f013" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/2/2/225d55c7633608ba68c0073e1173c96957261526" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/2/3/2348939d06329fc572b7012c3212d9dc2952275f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/2/4/247d45420c41a53388b7520cfe942d7e6bfc052a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/2/4/24e9f32ac29c669b5fb5691acf2eead97060f137" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/2/f/2fb77fa2ca397442302f41af761ef920978ccaff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/3/2/32d2fca67676291bf5957ebcb7717870e9723643" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/3/3/33c14ff4f42e0a862d934f06f41bf2726739a7f3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/3/5/35f3c30790fb574002c63b634b495a3126bc5a76" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/3/7/371cf858df7fa159ad11becc7ea18a1c456f06ed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/3/8/388b125a3138a21c8146c0a743975526e4909c17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/3/8/389de6f45676ea65aea37a4c1198f79f76eaea72" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/3/a/3a73f52015755149fa92f980a1a7baaa29bf787d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/3/f/3f6b4334dfdc0076451fa49ec91357cc0316d721" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/3/f/3faeea896b4943d5f776881e2c47ad2598b397da" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/4/6/46831c1b871a817d9e6396ebf301683b54475095" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/4/7/470e6a031f5449e09b4935046c59591dd9e28840" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/4/a/4ab0571bac0cee39e7ba8adb3ea8a4221ffd10e6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/4/a/4ae3168e2ff6b7ac7e9020242220310802c96ea4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/4/b/4bdb073d47ce3cd7dc0c7933a1d7e85b111b0116" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/4/e/4eb5f1b95a3e82006251386882e8a3955006d1ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/5/0/50c724633848d8522ec2686383f8806eab46eaf0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/5/2/52e82b0856a107e71558ef785c5d2a61cb8f578a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/5/3/53b73ee34332ee6f44d1fe6cd35143de52cf32c1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/5/9/59f5f9a3f0c363d937e2ea0ab5301cd5d2387189" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/5/a/5a917150fd4b97c3ce99e6876e12f149bf8b55c4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/5/d/5dcf39c7e9ad4cb0aaa712d4517c7af01068383f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/5/e/5ebd7ca32f73513b501511e8da9c91b56937c5cf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/6/4/640975aa66c10f3afeaf22c97907f18135e1484b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/6/5/6584938bc371a0065d2033ffd40afbf03452ffbd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/6/9/6916191438cee8aa2f959ad97d7f8b1fb38e9830" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/7/3/730c37e11ff574b8f4a2e0cc938e5cc06fc77342" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/7/3/731b13cfc853bd3c3e516ca9d608816ee4676eb7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/7/5/75b9c3eb3c040b30eafd0bed2a2df95e0346f94d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/7/7/776de9c58c937ea4310d035294732bd1095c4c41" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/7/8/7867d021afa67429e4be397c36703774af300954" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/7/b/7b647c67f9fa3dc778fc21431e4877ad8add0fae" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/7/b/7ba5a539e6953e7e5958887d494b609e9a2c3434" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/7/c/7c263fc8d853ae0d2331b21428609ceb51042832" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/7/c/7c84481416ee661afca21c029067ea9061c02934" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/7/c/7caa22c089ca4bd9d1caeb4fe85055d7ce098c5c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/7/f/7fd9ca40d0c5d24d39cfe1694cf02c19dc35c029" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/8/4/8449dad65b16acfcc111a3eb90523c0bd5d5eb71" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/8/a/8a4943e4b7df85b162a81523000648cb534b4fe9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/8/f/8fc1b2e9873ff83b0c5d79f84321fc195cbd7298" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/9/a/9a9d9b7bcb70ffbfc8acc51ef64080682b13fc61" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/9/b/9b328c0dea6cd765741b1c43f1dd330ad72cfa2c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/9/c/9cfe0c115d2b5df42e3ab28aa340fa9e141761a7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/9/d/9d3479d06d654b78a65b8cfe5f51eb2da76d5013" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/9/e/9e4510b55dec2c369a2285d0b20554cd2bb69cc0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/b/3/b3310aa6ee4d3aaeda26de0827644819af97a5e1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/b/3/b3a346495702bcd4f4d35c6382630fc83ab0f048" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/b/3/b3aa69dfa31005c6da924f0126047f60797c9f25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/b/3/b3b689503d499d1efabaf8c5e13bb2b3fa2c3958" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/b/8/b8ebc0ca2e4ed5f4d705af0890c8f32352a2412e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/b/c/bc689d58ea1c089269cac59ce926fe1c782235c6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/b/f/bf3ebbc32415042e2436519c971eded9dfc5c2ba" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/b/f/bf81b03d9e3b4692c06ea1701e932597078c6065" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/b/f/bfe339a11f4ec97ddfeefbf27728452215aa0309" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/c/0/c0ccfcfe4488b95ebe32a0e8443f8a4a5f388fd3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/c/1/c1e267c57a67830d16de9cddebf3825f2d85668f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/c/4/c4bfb79f2165900f801766b8dd2bda7084bdb650" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/c/5/c5fa4ad412459987df612f15f5701d4aa8116478" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/c/8/c803c2ab85799dfb2882306794c8c585e91eee4b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/c/8/c8f5a8d6b91344fe53f703c548a7d412a74e2211" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/c/a/ca83ec6ee7464964fd0957da223d4a3d33f38f74" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/c/b/cb93f8a4a4fa01efa05f4f16c771c69e0a2deae7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/c/c/ccb3112eb3b2cc7044c2228efdf92451de0d5e70" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/d/1/d1bc30c2a4c797f0d121e343d605616a921f1946" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/d/3/d339adba1a9c2dd9384f66f23e8dd343c6988d7f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/d/3/d383a0c34a263ce3a8c43bdb36ac785022b20fd2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/d/8/d8a69fdb8581ed95861ed847c200f65277befd53" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/d/e/de3348d0063bd836b656851d9de9159d425166b3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/d/e/ded48335e6a0d4c2db99c8268c88990c60b9cf77" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/e/0/e096c20d4aa486af0c1c00fdeffa1e1bbb3af16b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/e/7/e775a5c9618f1bc39862a001e9833dd29b1af156" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/e/b/eb9eba82238b668bcb0e245d31edf0c8ae619e5a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/e/f/ef4ca3597189d69eab708a2d36566cd614d3bbfb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/f/5/f5c18f3c438c992b255ecba3fb0a98926e845e7b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/f/9/f90adf9de555417e059a6fc39fbc0d7c6cf4635d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/f/a/fa0597217e046ac2723540023316891eb2185da6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/f/d/fdc0c5109ace5182def92397cc34b5a0a5c714aa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/f/d/fdd68db71f7f00b79193efe26e18629f24d55b50" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Fabryka_Abstrakcyjna/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Metoda Wytwórcza/.idea/sonarlint/issuestore/0/5/05c327bbcd4abd634dd8d2ac9cf3adab89876b04" beforeDir="false" afterPath="$PROJECT_DIR$/../Fabryka_Metoda Wytwórcza/.idea/sonarlint/issuestore/0/5/05c327bbcd4abd634dd8d2ac9cf3adab89876b04" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Metoda Wytwórcza/.idea/sonarlint/issuestore/a/c/acc89a943799198e00a405bb608e58d018febff6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Metoda Wytwórcza/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Fabryka_Metoda Wytwórcza/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Metoda Wytwórcza/.idea/sonarlint/securityhotspotstore/a/c/acc89a943799198e00a405bb608e58d018febff6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Metoda Wytwórcza/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Fabryka_Metoda Wytwórcza/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fabryka_Metoda Wytwórcza/src/FolderPokazowy/OCP/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fabryka_Metoda Wytwórcza/src/FolderPokazowy/OCP/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Singleton/src/Singleton/SingletonWersjaAsync.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Singleton/src/Singleton/SingletonWersjaAsync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PoleceneplusObserwator/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PoleceneplusObserwator/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,9 +251,9 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2c5vdNkExxbXmGl9bY7qvAuzQJz" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -133,6 +268,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/github/Cv-Doswiaczenie/Wzorce Projektowe/Polecenie",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -149,6 +285,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707414340657</updated>
       <workItem from="1707414341841" duration="2485000" />
+      <workItem from="1707921636728" duration="14000" />
     </task>
     <servers />
   </component>
