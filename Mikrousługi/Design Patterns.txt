@@ -1,3 +1,8 @@
+
+
+
+Mikroserwisy umożliwiają aplikacjom jednostronicowym które polegają na usługach tworzenia kopii zapasowych w celu dynemicznej aktualizacji stron
+
 SPA - Single-page application
 - Użytkownik wchodzi przez jeden interfejs, który nigdy nie ładuje ponownie strony docelowej.
 - Zbudowane przy użyciu mixu HTML, CSS i JS aplikacje te reagują na dane wejściowe użytkownika przez dynamiczne wywołanie backendu opartego na REST API. W ten sposób powstają aktualizacje na ekranie a nie przekierowanie na zupełnie nową stronę.
@@ -5,6 +10,9 @@ SPA - Single-page application
 - Zwiększa odpowiedzialność backendu.
 	Minusy:
 	- Zapewnia słabe wyniki w różnych aspektach użytkowania aplikacji jeśli używa się wersji na aplikacje mobilne i internetowe(Ogólnego przeznaczenia).
+
+BFF wykorzystuje mikrousługi aby ułatwić różne user expirences
+
 BFF - Backend for Frontend 
 (Zapewnia backend dla typowego gatunku urządzeń(PC, mobile, Tablet itd.)
 - Zapewnia doskonałe wsparcie w porównaniu do ogólnego backendu
@@ -15,7 +23,22 @@ BFF - Backend for Frontend
 interfejsu zamiast obsługiwać jeden ogólny Backend.
 	Minusy:
 	- Może wypłynąć na wydajność Frontendu
+
 Strangler(Wzór dusiciela - BTW tak to przetłumaczyli dlatego że nazwa wzieła się od zjawisko winorośli która dusi drzewo)
 - Pomocny w refaktoryzacji monolitycznej aplikacji.
-- 
+- Podzielenie aplikacji na wiele domen funkcjonalnych
+- Zastąpenie tych domen na microusługi.
+	Kroki działania:
+		Przekształcenie:
+		- Stworzenie nowej witryny która odzwierciedla starą.
+		Współistnienie:
+		-  Powolne przekierowanie do nowej witryny w celu wygaszenia w starej funkcjonalności która powstała w nowej witrynie.
+		Eliminacja:
+		- Usunięcie przestażałej funkcjonalności lub zatrzymanie jej zachowania.
 Service discovery
+- Pomaga innym mikrousługom dowiedzieć się o swoim współisteniu(odkrywanie się nawzajem).
+- Jest potrzebny ponieważ instancje usług zmieniają się dynamicznie z powodu skalowania.
+- Kontrola kondycji i przywracania równowagi ruchu w przypadku awarii usług.
+
+EAAP - Entity and aggregate patterns
+- Dla witryn e-comarce

@@ -1,0 +1,36 @@
+- Tworzenie aplikacji nie zaczyna się od microusług. Używamy ich tylko w przypadku kiedy aplikacja monolit staje się zbyt złożona i utrzymanie jej jest zbyt skomplikowane. 
+- Gdy aplikacje nie daje się łatwo aktualizować i utrzymać 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Niepoważne traktowanie automatyzacji
+
+Jeśli masz aplikację monolityczną, wystarczy wdrożyć tylko jeden element oprogramowania. Po przejściu na architekturę mikrousług będą Państwo mieli więcej niż jedną aplikację, z których każda będzie miała inny kod, testy i cykle wdrażania.
+
+- odpowiedniej automatyzacji wdrażania i monitorowania, lub zarządzanych usług w chmurze, które wspierałyby Państwa rozległą, heterogeniczną infrastrukturę to proszenie się o wiele niepotrzebnych kłopotów.
+
+Tak więc, budując mikrousługi, proszę zawsze korzystać z DevOps lub usług w chmurze.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Nanousługi
+Tworzenie nano usług można rozważyć gdy:
+- wdrażanie zmian staje się trudne
+- Wspólny model staje zbyt złożony.
+- Wymagania dotyczące ładowania i skalowania nie są już zsynchronizowane i nie wpływają na wydajność aplikacji  
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Brak przekształcanie się w SOA
+Dwie koncepcje: mikrousługi i architektura zorientowana na usługi (SOA) są często ze sobą mylone, ponieważ na najbardziej podstawowym poziomie obie budują pojedyncze komponenty wielokrotnego użytku, które mogą być konsumowane przez inne aplikacje.
+
+Jednak mikrousługi są drobnoziarniste z niezależnym przechowywaniem danych dla każdego z nich, czyli ograniczonym kontekstem.
+
+Projekt mikrousług, który przekształca się w projekt SOA, prawdopodobnie ugnie się pod własnym ciężarem.
+
+
+SOA(zapewnia wielokrotność użytkowania, bezproblemową integrację) - sprzężanie aplikacji interfejsem i wykorzystaniem aplikacji(pojedyńczych) w innych aplikacjach. Każdy interfejs świadczy usługi w celu spełnienia swojego zadania(Tak samo jak mikrousługi.)
+Mikrousługi(skalowalność, elastyczność) - aplikacje działają niezależnie od siebie. Dane w mikros. nie są udostępnione innym mikroserwisom w ogólnej aplikacji w porównaniu do SOA. Pomaga to w skalowaniu poziomym aplikacji oznacza to również możliwość wybrania innych technologii do poszczególnych mikroserwisów.  
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Proszę nie budować bramy dla każdej usługi
+
+Zamiast implementować uwierzytelnianie użytkownika końcowego, dławienie, orkiestrację, transformację, trasę i analitykę w każdej usłudze, należy użyć bramy API.
+
+Brama API to narzędzie do zarządzania API, które znajduje się między klientem a kolekcją usług zaplecza.
+
+Stanie się to kluczowe dla wyżej wymienionych niefunkcjonalnych kwestii i pozwoli uniknąć ponownego projektowania ich dla każdej usługi.
+
