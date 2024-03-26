@@ -1,0 +1,31 @@
+#include <xc.h>
+#include <libpic30.h>
+#include<math.h>
+
+int main(void) {
+  unsigned char portValue;
+  AD1PCFG = 0xFFFF;
+  TRISA = 0x0000;
+  portValue = 00000000;
+  unsigned char n;
+
+  while(1) {
+    if(portValue == 00000000){
+      portValue = 11111111;
+    }
+    portValue--;
+
+
+    unsigned char grayCode = portValue >> 7;
+    for (int i = 6; i >= 0; i--) {
+      grayCode <<= 1;
+      grayCode |= ((portValue >> i) & 1) ^ ((portValue >> (i + 1)) & 1);
+    }
+
+    LATA = grayCode;
+
+
+    __delay32(1500000);
+  }
+  return -1;
+}

@@ -1,0 +1,2 @@
+Jest to język zapytań dla API
+Pozwala klientowi pobierać dane TYLKO te którch potrzebuje

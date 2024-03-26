@@ -17,4 +17,6 @@ public class PosypkaDeluxe implements NapójInterfejs {
     public double cena() {
         return napójInterfejs.cena() + 21.37;
     }
+
+
 }

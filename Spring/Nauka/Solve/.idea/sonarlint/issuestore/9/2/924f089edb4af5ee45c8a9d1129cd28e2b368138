@@ -1,0 +1,11 @@
+
+‹
+java:S1319"iThe type of "arrayList" should be an interface such as "List" rather than the implementation "ArrayList".(¤×‡ùÿÿÿÿ8Ù¤Í£á1
+‹
+java:S1319 "iThe type of "arrayList" should be an interface such as "List" rather than the implementation "ArrayList".(š§õ’ûÿÿÿÿ8Ù¤Í£á1
+7
+java:S1220""Move this file to a named package.8Ú¤Í£á1
+W
+java:S1854@":Remove this useless assignment to local variable "result".(õ±ş©8ç¤Í£á1
+H
+java:S1481@"+Remove this unused "result" local variable.(õ±ş©8ç¤Í£á1

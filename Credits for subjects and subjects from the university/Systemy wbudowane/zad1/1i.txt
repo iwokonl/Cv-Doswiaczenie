@@ -1,0 +1,65 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include<stdio.h>
+#include<stdlib.h>
+#include <unistd.h>
+void prin(int n,int bity){
+    int a[bity], i;
+    // Maska bitowa do izolowania pojedynczych bitów
+    unsigned char maska = 1 << (bity-1);
+
+    // Pętla do iterowania po wszystkich bitach
+    for (i = 0; i < bity; i++) {
+        // Sprawdzenie, czy bit jest ustawiony
+        a[i] = (n & maska) ? 1 : 0;
+
+        // Przesunięcie maski o jeden bit w prawo
+        maska >>= 1;
+    }
+
+    for (i = 0; i < bity / 2; i++) {
+        int temp = a[i];
+        a[i] = a[(bity -1) - i];
+        a[(bity -1) - i] = temp;
+    }
+
+    // Wyświetlanie bitów
+    for (i = (bity-1); i >= 0; i--) {
+        printf("%d", a[i]);
+    }
+    printf("\n");
+}
+
+
+
+int main() {
+
+
+    // Ustawienie wartości `n`
+    int start = 0b00000001;
+    int n = 0b00000001;
+    int temp = 0b00000000;
+    int z = 8;
+
+    while(1){
+        for(int i = 0;i<z;i++){
+            prin(temp+n,8);
+            sleep(1);
+            if(i == (z-1)){
+                temp +=n;
+            }
+            else{
+            n <<= 1;
+            }
+            }
+
+        n=start;
+        z--;
+        if(temp == 0b11111111){
+            break;
+        }
+    }
+
+    return 0;
+}

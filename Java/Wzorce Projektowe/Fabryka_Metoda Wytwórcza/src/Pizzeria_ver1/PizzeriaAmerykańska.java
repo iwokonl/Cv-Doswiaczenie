@@ -6,6 +6,7 @@ public class PizzeriaAmerykańska extends Pizzeria{
         if (type.equals("serowa")) {
             return new PizzaAmerykańskaSerowa();
         }
+
         return null;
     }
 }

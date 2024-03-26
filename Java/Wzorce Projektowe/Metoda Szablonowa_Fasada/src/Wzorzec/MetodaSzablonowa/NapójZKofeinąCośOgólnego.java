@@ -7,7 +7,6 @@ public abstract class NapójZKofeinąCośOgólnego {
         nalewaniedoFiliżanki();
         dodanieSkładników();
     }
-
     abstract void zaparzanie();
     abstract  void dodanieSkładników();
 

@@ -1,17 +1,0 @@
-
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õ°…úÿÿÿÿ8£î†™Ú1
-i
-java:S1871"LThis branch's code block is the same as the block for the branch on line 10.(¬š¡æ8¦î†™Ú1
-i
-java:S1871"LThis branch's code block is the same as the block for the branch on line 10.(ˆèÊ‰8¦î†™Ú1
-…
-java:S1157
-"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(’šÀîıÿÿÿÿ8·„ˆ™Ú1
-J	java:S108
-")Either remove or fill this block of code.(’šÀîıÿÿÿÿ8§î†™Ú1
-€
-java:S1157"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(¬š¡æ8Õì‡™Ú1
-E	java:S108")Either remove or fill this block of code.(¬š¡æ8§î†™Ú1
-€
-java:S1157"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(ˆèÊ‰8ìÉ‡™Ú1
-E	java:S108")Either remove or fill this block of code.(ˆèÊ‰8¨î†™Ú1

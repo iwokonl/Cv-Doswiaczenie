@@ -1,16 +1,16 @@
 
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıØôüøÿÿÿÿ8¦¿óèØ1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıØôüøÿÿÿÿ8 Ø›îÚ1
 7
-java:S1220""Move this file to a named package.8¦¿óèØ1
+java:S1220""Move this file to a named package.8¡Ø›îÚ1
 j
-java:S2095"MUse try-with-resources or close this "ExecutorService" in a "finally" clause.(‡˜ä8õòÁéØ1
-L	java:S106"+Replace this use of System.out by a logger.(ÄÜÜñúÿÿÿÿ8°¿óèØ1
+java:S2095"MUse try-with-resources or close this "ExecutorService" in a "finally" clause.(‡˜ä8¨Ø›îÚ1
+L	java:S106"+Replace this use of System.out by a logger.(ÄÜÜñúÿÿÿÿ8­Ø›îÚ1
 Y
-java:S1854"<Remove this useless assignment to local variable "executor".(‡˜ä8øòÁéØ1
+java:S1854"<Remove this useless assignment to local variable "executor".(‡˜ä8­Ø›îÚ1
 J
-java:S1481"-Remove this unused "executor" local variable.(‡˜ä8ûòÁéØ1
-L	java:S106!"+Replace this use of System.out by a logger.(ÄÜÜñúÿÿÿÿ8±¿óèØ1
+java:S1481"-Remove this unused "executor" local variable.(‡˜ä8±Ø›îÚ1
+L	java:S106!"+Replace this use of System.out by a logger.(ÄÜÜñúÿÿÿÿ8µØ›îÚ1
 I
-java:S1602"",Remove useless curly braces around statement(è¶…Ğ8ÅéôèØ1
+java:S1602"",Remove useless curly braces around statement(è¶…Ğ8¶Ø›îÚ1
 h
-java:S1128"FRemove this unused import 'java.util.concurrent.atomic.AtomicInteger'.(¿êäœøÿÿÿÿ8Š®éØ1
+java:S1128"FRemove this unused import 'java.util.concurrent.atomic.AtomicInteger'.(¿êäœøÿÿÿÿ8·Ø›îÚ1

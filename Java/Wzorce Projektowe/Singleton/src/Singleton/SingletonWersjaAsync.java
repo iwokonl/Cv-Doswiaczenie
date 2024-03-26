@@ -18,7 +18,6 @@ public class SingletonWersjaAsync {
                     singleton = temp = new SingletonWersjaAsync(data);
                 }
             }
-
         }
         return temp;
     }

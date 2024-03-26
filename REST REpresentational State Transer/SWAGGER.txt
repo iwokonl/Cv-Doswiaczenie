@@ -1,0 +1,8 @@
+Swagger oszczędza czas na pisaniu dokumentacji API, uruchamiając specyfikację OpenAPI
+Pozwala opisać strukturę interfejsów API, aby maszyny mogły je odczytać
+Automatycznie buduję interfejs użytkownika i interaktywną dokumentacje API. Struktura jest zdefiniowana w JSON lub YAML, który jest zgodny ze specyfikacjami OpenAPI
+
+OpenAPI
+OpenAPI definuje standardowy, niezależny interfejs od języka API RESTfull
+Definiuje wszystkie operacje obsługiwane przez interfejs API wymagane parametry i oczekiwany zwrot oraz wymagane uwierzytelnienie API
+

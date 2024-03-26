@@ -1,0 +1,25 @@
+Modele chmurowe - zrzucają wysiłek z programistów odnośnie utrzymania 
+infrastruktury serwerowej na zewnętrzy podmiot.
+FaaS - Function as a Service
+Pozwala na uruchamianie pojedyńczych mikrousług w chmurze lub funkcji. Funkcje są uruchamiane w odpowiedzi na zdarzenia, takie jak kliknięcie przycisku przez użytkownika lub przesłanie pliku. FaaS jest idealny do zadań, które są krótkie, niezależne i skalowalne.
+BaaS - Backend as a Service
+oferuje kompletne zaplecze backendowe dla aplikacji. Obejmuje to funkcje takie jak uwierzytelnianie użytkowników, przechowywanie danych, zarządzanie push-ami i integracja z mediami społecznościowymi. BaaS ułatwia programistom tworzenie aplikacji bez konieczności budowania i utrzymywania własnej infrastruktury backendowej.
+
+
+Przykładowe zastosowania FaaS:
+
+Przetwarzanie obrazów
+Analiza danych
+Automatyzacja zadań
+Backend dla aplikacji mobilnych
+
+
+Przykładowe zastosowania BaaS:
+
+Aplikacje społecznościowe
+Aplikacje e-commerce
+Gry mobilne
+Systemy zarządzania treścią
+
+Serverless w porównaniu do kontenerów np. autoryzacji użytkownika:
+Uruchomienie kontenera jest bardziej czasochłonne i zasobochłonne więc idealnym rozwiązaniem jest rozwiązanie bezserwerowe która umożliwia stwożenie funkcji która sprawdza i po kilku sekundach aplikacja do wykonania tego zostaje zamknięta. W skrócie jest to rozwiązanie chmurowe która ściąga z nas wiele kosztownych obowiązków przy tworzeniu aplikacji i umożliwa efektowe korzystanie z płatnych zasobów np. moduły aplikacji są uruchamiane i włączone tylko wtedy kiedy muszą być włączone w innym wypadku na logikę są wyłączone przykład takiego rozwiązania to Azure i AWS 
