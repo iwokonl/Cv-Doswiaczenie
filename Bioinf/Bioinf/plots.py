@@ -4,7 +4,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from scipy.stats import ttest_ind
-
+from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
 # Do poprawy -Log10(p-value) bof nie wiem jak to obliczyć i czy Log2 Fold jest git
 # Załaduj dane
 df = pd.read_csv('data/Feature_counts.txt', delimiter='\t')
@@ -46,4 +47,30 @@ for col in range(1, 5):
     plt.ylabel('M (Log2 Fold Change)')
     plt.title(f'MA Plot for Comparison')
     plt.axhline(y=0, color='gray', linestyle='--')  # Add a horizontal line at M=0
+plt.show()
+
+# Step 1: Identify and replace infinite values with NaN
+df.replace([np.inf, -np.inf], np.nan, inplace=True)
+
+# Step 2: Handle NaN values. Here, we'll drop rows with any NaN values.
+# Alternatively, you could fill NaNs with df.fillna(method='ffill') or with a specific value.
+df.dropna(inplace=True)
+
+# Your existing code for data preparation and visualization goes here
+# ...
+
+# Re-apply StandardScaler on cleaned data
+scaler = StandardScaler()
+scaled_df = scaler.fit_transform(df.select_dtypes(include=[np.number]))
+
+# Apply PCA
+pca = PCA(n_components=0.95)
+pca_components = pca.fit_transform(scaled_df)
+
+# Plot the first two principal components
+plt.figure(figsize=(10, 6))
+plt.scatter(pca_components[:, 0], pca_components[:, 1], alpha=0.5)
+plt.xlabel('Principal Component 1')
+plt.ylabel('Principal Component 2')
+plt.title('PCA - First two principal components')
 plt.show()
