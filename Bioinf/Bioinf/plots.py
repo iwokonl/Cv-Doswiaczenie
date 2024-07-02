@@ -15,14 +15,14 @@ df = pd.read_csv('data/Feature_counts.txt', delimiter='\t')
 
 # Oblicz log2 fold change dla każdej pary porównań
 for col in range(1, 5):
-    df = df[df[f'R_fluitans_B{col}Aligned.sortedByCoord.out.bam'] != 0]
+    df = df[df[f'R_fluitans_B{col}Aligned.sortedByCoord.out.bam'] != 0] # Czemu jak to dodam nie wywala Nanów
 
 for col in range(1, 5):
     df[f'log2foldchange{col}'] = np.log2(
-        df[f'R_fluitans_A{col}Aligned.sortedByCoord.out.bam'] / df[f'R_fluitans_B{col}Aligned.sortedByCoord.out.bam'])
+        df[f'R_fluitans_A{col}Aligned.sortedByCoord.out.bam'] / df[f'R_fluitans_B{col}Aligned.sortedByCoord.out.bam']) # Czyli to stosunek starej komurki do zmodyfikowanej(?) rozumiem ze tak jest i tyle czy to jakiś procent zmiany?
 
 # Inicjalizuj DataFrame do przechowywania p-wartości dla każdego porównania
-p_values_df = pd.DataFrame(index=df.index)
+p_values_df = pd.DataFrame(index=df.index) # Co to jest p-value? value to wartość tego a p to nie wiem 0,95 * wartość tego
 print(df.shape)
 # Oblicz p-wartości dla każdego genu w porównaniach
 for col in range(1, 5):
@@ -40,14 +40,14 @@ for col in range(1, 5):
 plt.xlabel('Log2 Fold Change')
 plt.ylabel('-Log10(p-value)')  # Zmodyfikowana etykieta osi Y
 plt.title('Volcano Plot')
-plt.show()
+plt.show()# Jak to czytać?
 for col in range(1, 5):
     plt.plot(df[f'mean_average{col}'], df[f'log2foldchange{col}'], 'o',alpha=0.2, label=f'Comparison {col}')
     plt.xlabel('A (Mean Average)')
     plt.ylabel('M (Log2 Fold Change)')
-    plt.title(f'MA Plot for Comparison')
+    plt.title('MA Plot')
     plt.axhline(y=0, color='gray', linestyle='--')  # Add a horizontal line at M=0
-plt.show()
+plt.show() # Jak to czytać?
 
 # Step 1: Identify and replace infinite values with NaN
 df.replace([np.inf, -np.inf], np.nan, inplace=True)
@@ -70,7 +70,7 @@ pca_components = pca.fit_transform(scaled_df)
 # Plot the first two principal components
 plt.figure(figsize=(10, 6))
 plt.scatter(pca_components[:, 0], pca_components[:, 1], alpha=0.5)
-plt.xlabel('Principal Component 1')
-plt.ylabel('Principal Component 2')
-plt.title('PCA - First two principal components')
-plt.show()
+plt.title('PCA')
+plt.show()# Jak to czytać?
+# Na naturalnym przykładzie co to jest do czego to się uzywa i w jakim  kierunku jest to normalizacja
+# (Myśl - To jest coś takiego jak min max scaling dla biasów i wag w sieci neuronowej jak chcemy znormalizować wartości dla przedziału [0-1]?)
